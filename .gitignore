@@ -1,0 +1,14 @@
+/mods/
+/world/
+/backups/
+banned-ips.json
+banned-playeres.json
+*.log
+/forge.jar
+/libraries/
+/logs/
+/minecraft*.jar
+/null/
+/old/
+/usercache.json
+/usernamecache.json

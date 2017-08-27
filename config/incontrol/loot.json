@@ -1,0 +1,10 @@
+[
+  {
+    "mob": "minecraft:witch",
+    "remove": "minecraft:glowstone_dust"
+  },
+  {
+    "mob": "minecraft:witch",
+    "remove": "minecraft:redstone"
+  }
+]
