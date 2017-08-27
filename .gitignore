@@ -2,7 +2,7 @@
 /world/
 /backups/
 banned-ips.json
-banned-playeres.json
+banned-players.json
 *.log
 /forge.jar
 /libraries/
@@ -12,3 +12,10 @@ banned-playeres.json
 /old/
 /usercache.json
 /usernamecache.json
+/*.so
+/crash-reports/
+/autostart.stamp
+/jar/
+/journeymap/
+/stall-reports/
+/*.nps
