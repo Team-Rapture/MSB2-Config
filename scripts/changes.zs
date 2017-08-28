@@ -21,6 +21,8 @@ recipes.remove(<minecraft:sugar>);
 recipes.remove(<randomthings:fertilizeddirt>);
 recipes.remove(<industrialforegoing:black_hole_tank>);
 recipes.remove(<xreliquary:altar>);
+recipes.remove(<harvestcraft:shippingbin>);
+recipes.remove(<harvestcraft:well>);
 
 //Ore Dict
 <ore:ingotOsmium>.remove(<sgextraparts:ingot:10>);
@@ -335,6 +337,18 @@ recipes.addShaped(<mekanism:basicblock2:7>,[
 recipes.remove(<randomthings:blazeandsteel>);
 recipes.addShapeless(<randomthings:blazeandsteel>,[<ore:ingotSteel>,<minecraft:blaze_powder>]);
 
+recipes.addShapeless(<harvestcraft:freshwateritem>,[<ceramics:clay_bucket>.withTag({fluids:{FluidName: "water", Amount:1000}})]);
+
+recipes.addShapeless(<harvestcraft:freshmilkitem>*4,[<ceramics:clay_bucket:1>]);
+
+//AA Dough
+recipes.remove(<actuallyadditions:item_misc:4>);
+recipes.addShapeless(<actuallyadditions:item_misc:4>*2,[<ore:listAllgrain>,<ore:listAllgrain>,<ore:listAllgrain>,<harvestcraft:mortarandpestleitem>,<harvestcraft:mixingbowlitem>,<ore:listAllwater>]);
+
+recipes.remove(<actuallyadditions:item_misc:9>);
+recipes.addShapeless(<actuallyadditions:item_misc:9>*2,[<ore:cropRice>,<ore:cropRice>,<ore:cropRice>,<harvestcraft:mortarandpestleitem>,<harvestcraft:mixingbowlitem>,<ore:listAllwater>]);
+
+
 //Circuits
 recipes.remove(<mekanism:controlcircuit:2>);
 
@@ -609,6 +623,29 @@ mods.actuallyadditions.AtomicReconstructor.addRecipe(<astralsorcery:blockcollect
 
 mods.actuallyadditions.Empowerer.addRecipe(<astralsorcery:blockcustomore>, <minecraft:stone>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal:5>, 2500, 100);
 
+//End-game
+recipes.remove(<rftools:dimensional_shard>);
+
+recipes.remove(<draconicevolution:crafting_injector>);
+recipes.addShaped(<draconicevolution:crafting_injector>,[
+[<actuallyadditions:item_crystal_empowered:2>,null,<actuallyadditions:item_crystal_empowered:2>],
+[<psi:material:4>,<actuallyadditions:block_display_stand>,<psi:material:4>],
+[<psi:material:3>,<actuallyadditions:block_crystal_empowered:5>,<psi:material:3>]
+]);
+
+recipes.remove(<mysticalagriculture:infusion_crystal>);
+recipes.addShaped(<mysticalagriculture:infusion_crystal>,[
+[null,<mysticalagriculture:crafting:5>],
+[<mysticalagriculture:crafting:5>,<rftools:infused_diamond>,<mysticalagriculture:crafting:5>],
+[null,<mysticalagriculture:crafting:5>]
+]);
+
+recipes.remove(<mysticalagriculture:master_infusion_crystal>);
+recipes.addShaped(<mysticalagriculture:master_infusion_crystal>,[
+[null,<mysticalagradditions:awakened_draconium_essence>],
+[<mysticalagradditions:awakened_draconium_essence>,<mysticalagriculture:infusion_crystal>,<mysticalagradditions:awakened_draconium_essence>],
+[null,<mysticalagradditions:awakened_draconium_essence>]
+]);
 
 //Mob Grinding Utils
 recipes.remove(<mob_grinding_utils:absorption_upgrade>);
@@ -703,17 +740,22 @@ mods.skyresources.fusion.addRecipe(<skyresources:orealchdust:12>, [<mekanism:dus
 mods.skyresources.cauldronclean.removeRecipe(<mekanism:dust:2>);
 mods.skyresources.cauldronclean.addRecipe(<mekanism:dust:2>, <skyresources:techitemcomponent>, 0.00005);
 
+mods.skyresources.rockgrinder.addRecipe(<harvestcraft:aridgarden>, <minecraft:leaves2>, 0.25);
+mods.skyresources.rockgrinder.addRecipe(<harvestcraft:frostgarden>, <minecraft:leaves:1>, 0.25);
+mods.skyresources.rockgrinder.addRecipe(<harvestcraft:shadedgarden>, <minecraft:leaves2:1>, 0.25);
+mods.skyresources.rockgrinder.addRecipe(<harvestcraft:soggygarden>, <minecraft:leaves>, 0.25);
+mods.skyresources.rockgrinder.addRecipe(<harvestcraft:tropicalgarden>, <minecraft:leaves:3>, 0.25);
+mods.skyresources.rockgrinder.addRecipe(<harvestcraft:windygarden>, <minecraft:leaves:2>, 0.25);
+
 //TE Special Recipes
 mods.thermalexpansion.Crucible.addRecipe(<liquid:ender>*375, <extrautils2:enderlilly>, 30000);
 
 //Broken sttuff
 recipes.remove(<extrautils2:crafter>);
 recipes.remove(<extrautils2:analogcrafter>);
-recipes.remove(<storagedrawers:compdrawers>);
 recipes.remove(<extrautils2:quarryproxy>);
 recipes.remove(<extrautils2:quarry>);
 
-// Spawn Here Special
 recipes.addShaped("spawn_block_mob",<spawnhere:spawn_block>*8,
 [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
 [<ore:dirt>,null,<ore:dirt>],
