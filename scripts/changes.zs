@@ -23,6 +23,9 @@ recipes.remove(<industrialforegoing:black_hole_tank>);
 recipes.remove(<xreliquary:altar>);
 recipes.remove(<harvestcraft:shippingbin>);
 recipes.remove(<harvestcraft:well>);
+recipes.remove(<extrautils2:quarryproxy>);
+recipes.remove(<extrautils2:quarry>);
+recipes.remove(<embers:breaker>);
 
 //Ore Dict
 <ore:ingotOsmium>.remove(<sgextraparts:ingot:10>);
@@ -98,6 +101,9 @@ recipes.addShaped(<minecraft:ghast_tear>*2,[
 [<mysticalagriculture:ghast_essence>,null,<mysticalagriculture:ghast_essence>],
 [<mysticalagriculture:ghast_essence>,<mysticalagriculture:ghast_essence>,<mysticalagriculture:ghast_essence>]
 ]);
+
+recipes.remove(<minecraft:gold_nugget>);
+recipes.addShapeless(<minecraft:gold_nugget>*9,[<minecraft:gold_ingot>]);
 
 
 //Beds
@@ -195,8 +201,8 @@ recipes.addShaped("extractor",<industrialforegoing:tree_fluid_extractor>,[
 
 recipes.remove(<industrialforegoing:laser_base>);
 recipes.addShaped("laser",<industrialforegoing:laser_base>,[
-[<industrialforegoing:plastic>,<ore:blockEvil>,<industrialforegoing:plastic>],
-[<ore:gearEmerald>,<ore:blockEvil>,<ore:gearEmerald>],
+[<industrialforegoing:plastic>,<ore:blockEvilMetal>,<industrialforegoing:plastic>],
+[<ore:gearEmerald>,<ore:blockEvilMetal>,<ore:gearEmerald>],
 [<ore:gearEnderium>,<teslacorelib:machine_case>,<ore:gearEnderium>]
 ]);
 
@@ -276,6 +282,27 @@ recipes.addShaped(<solarfluxreborn:mirror>,[
 [null,<ore:plateSilver>]
 ]);
 
+//Botania
+recipes.remove(<botania:fertilizer>);
+recipes.addShapeless(<botania:fertilizer>,[<skyresources:baseitemcomponent:4>,<ore:dyeRed>,<ore:dyeBlue>,<ore:dyeYellow>]);
+
+recipes.remove(<actuallyadditions:item_misc:18>);
+recipes.addShaped(<actuallyadditions:item_misc:18>,[
+[<forestry:oak_stick>,<forestry:oak_stick>,<forestry:oak_stick>],
+[<forestry:oak_stick>,<botania:lens>,<forestry:oak_stick>],
+[<forestry:oak_stick>,<forestry:oak_stick>,<forestry:oak_stick>]
+]);
+
+recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
+recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>,[
+[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
+[<extrautils2:ingredients>,<actuallyadditions:block_misc:9>,<actuallyadditions:item_misc:18>],
+[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>]
+]);
+
+recipes.remove(<botania:manaresource:6>);
+recipes.addShapeless(<botania:manaresource:6>,[<harvestcraft:ediblerootitem>,<forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000})]);
+
 
 //Wands
 recipes.remove(<betterbuilderswands:wandstone>);
@@ -306,6 +333,13 @@ recipes.remove(<extrautils2:itemdestructionwand>);
 //Random
 
 recipes.remove(<forestry:bog_earth>);
+
+recipes.remove(<teslacorelib:gear_stone>);
+recipes.addShaped(<teslacorelib:gear_stone>,[
+[null,<minecraft:stone:*>],
+[<minecraft:stone:*>,<ore:gearWood>,<minecraft:stone:*>],
+[null,<minecraft:stone:*>]
+]);
 
 recipes.remove(<extrautils2:bagofholding>);
 recipes.addShaped(<extrautils2:bagofholding>,[
@@ -341,6 +375,21 @@ recipes.addShapeless(<harvestcraft:freshwateritem>,[<ceramics:clay_bucket>.withT
 
 recipes.addShapeless(<harvestcraft:freshmilkitem>*4,[<ceramics:clay_bucket:1>]);
 
+recipes.remove(<techreborn:grinder>);
+
+recipes.remove(<techreborn:vacuum_freezer>);
+recipes.addShaped(<techreborn:vacuum_freezer>,[
+[<ore:plateSteel>,<techreborn:extractor>,<ore:plateSteel>],
+[<ore:circuitAdvanced>,<techreborn:reinforced_glass>,<ore:circuitAdvanced>],
+[<ore:plateSteel>,<forge:bucketfilled>.withTag({FluidName: "ice", Amount: 1000}),<ore:plateSteel>]
+]);
+
+recipes.remove(<silentgems:food>);
+recipes.addShaped(<silentgems:food>,[
+[null,<minecraft:baked_potato>],
+[<forestry:oak_stick>]
+]);
+
 //AA Dough
 recipes.remove(<actuallyadditions:item_misc:4>);
 recipes.addShapeless(<actuallyadditions:item_misc:4>*2,[<ore:listAllgrain>,<ore:listAllgrain>,<ore:listAllgrain>,<harvestcraft:mortarandpestleitem>,<harvestcraft:mixingbowlitem>,<ore:listAllwater>]);
@@ -348,6 +397,18 @@ recipes.addShapeless(<actuallyadditions:item_misc:4>*2,[<ore:listAllgrain>,<ore:
 recipes.remove(<actuallyadditions:item_misc:9>);
 recipes.addShapeless(<actuallyadditions:item_misc:9>*2,[<ore:cropRice>,<ore:cropRice>,<ore:cropRice>,<harvestcraft:mortarandpestleitem>,<harvestcraft:mixingbowlitem>,<ore:listAllwater>]);
 
+//EU
+recipes.remove(<extrautils2:crafter>);
+recipes.addShapeless(<extrautils2:analogcrafter>,[<simplyconveyors:transporter_module>,<structuredcrafting:structured_crafter>,<colossalchests:chest_wall>]);
+
+recipes.remove(<extrautils2:analogcrafter>);
+recipes.addShapeless(<extrautils2:crafter>,[<minecraft:chest>,<extrautils2:analogcrafter>,<extrautils2:user>]);
+
+recipes.remove(<extrautils2:user>);
+recipes.addShapeless(<extrautils2:user>,[<minecraft:dropper>,<immersiveengineering:material:9>,<extrautils2:ingredients>,<techreborn:part:29>]);
+
+recipes.remove(<extrautils2:miner>);
+recipes.addShapeless(<extrautils2:miner>,[<minecraft:dropper>,<immersiveengineering:material:9>,<extrautils2:ingredients>,<minecraft:iron_pickaxe>]);
 
 //Circuits
 recipes.remove(<mekanism:controlcircuit:2>);
@@ -517,9 +578,9 @@ recipes.addShaped("case6",<actuallyadditions:block_misc:9>,[
 
 recipes.remove(<teslacorelib:machine_case>);
 recipes.addShaped("case7",<teslacorelib:machine_case>,[
-[<ore:plateTungsten>,<immersiveengineering:treated_wood:*>,<ore:plateTungsten>],
-[<immersiveengineering:treated_wood:*>,<actuallyadditions:block_misc:9>,<immersiveengineering:treated_wood:*>],
-[<ore:plateTungsten>,<immersiveengineering:treated_wood:*>,<ore:plateTungsten>]
+[<ore:plateTungsten>,<ore:plankTreatedWood>,<ore:plateTungsten>],
+[<ore:plankTreatedWood>,<actuallyadditions:block_misc:9>,<ore:plankTreatedWood>],
+[<ore:plateTungsten>,<ore:plankTreatedWood>,<ore:plateTungsten>]
 ]);
 
 recipes.remove(<techreborn:machine_frame:1>);
@@ -539,7 +600,7 @@ recipes.addShaped("case9",<actuallyadditions:block_misc:8>,[
 recipes.remove(<rftools:machine_frame>);
 recipes.addShaped("case10",<rftools:machine_frame>,[
 [<ore:plateTungstensteel>,<actuallyadditions:item_crystal_empowered:1>,<ore:plateTungstensteel>],
-[<ore:nuggetElectrumFlux>,<actuallyadditions:block_misc:8>,<ore:nuggetElectrumFlux>],
+[<ore:nuggetElectrumFlux>,<techreborn:machine_frame:1>,<ore:nuggetElectrumFlux>],
 [<ore:plateTungstensteel>,<actuallyadditions:item_crystal_empowered:1>,<ore:plateTungstensteel>]
 ]);
 
@@ -623,6 +684,39 @@ mods.actuallyadditions.AtomicReconstructor.addRecipe(<astralsorcery:blockcollect
 
 mods.actuallyadditions.Empowerer.addRecipe(<astralsorcery:blockcustomore>, <minecraft:stone>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal:5>, 2500, 100);
 
+//RS
+recipes.remove(<refinedstorage:quartz_enriched_iron>);
+recipes.addShapeless(<refinedstorage:quartz_enriched_iron>*9,[<refinedstorage:quartz_enriched_iron_block>]);
+recipes.addShaped(<refinedstorage:quartz_enriched_iron>*8,[
+[<mysticalagriculture:quartz_enriched_iron_essence>,<mysticalagriculture:quartz_enriched_iron_essence>,<mysticalagriculture:quartz_enriched_iron_essence>],
+[<mysticalagriculture:quartz_enriched_iron_essence>,null,<mysticalagriculture:quartz_enriched_iron_essence>],
+[<mysticalagriculture:quartz_enriched_iron_essence>,<mysticalagriculture:quartz_enriched_iron_essence>,<mysticalagriculture:quartz_enriched_iron_essence>]
+]);
+
+mods.techreborn.chemicalReactorRecipe.addRecipe(<refinedstorage:quartz_enriched_iron>, <minecraft:iron_ingot>, <actuallyadditions:item_dust:5>*3, 100, 60);
+
+//ET
+recipes.remove(<environmentaltech:photovoltaic_cell>);
+recipes.addShaped(<environmentaltech:photovoltaic_cell>*2,[
+[<actuallyadditions:item_crystal:3>,<solarfluxreborn:solarcell4>,<actuallyadditions:item_crystal:3>],
+[<solarfluxreborn:solarcell4>,<actuallyadditions:item_crystal_empowered:3>,<solarfluxreborn:solarcell4>],
+[<actuallyadditions:item_crystal:3>,<solarfluxreborn:solarcell4>,<actuallyadditions:item_crystal:3>]
+]);
+
+recipes.remove(<environmentaltech:structure_panel>);
+recipes.addShaped(<environmentaltech:structure_panel>,[
+[<actuallyadditions:item_crystal_empowered:3>,<minecraft:concrete:15>,<actuallyadditions:item_crystal_empowered:3>],
+[<minecraft:concrete:15>,<environmentaltech:connector>,<minecraft:concrete:15>],
+[<actuallyadditions:item_crystal_empowered:3>,<minecraft:concrete:15>,<actuallyadditions:item_crystal_empowered:3>]
+]);
+
+recipes.remove(<environmentaltech:structure_panel_clear>);
+recipes.addShaped(<environmentaltech:structure_panel_clear>,[
+[<actuallyadditions:item_crystal_empowered:3>,<tconstruct:clear_stained_glass:15>,<actuallyadditions:item_crystal_empowered:3>],
+[<tconstruct:clear_stained_glass:15>,<environmentaltech:connector>,<tconstruct:clear_stained_glass:15>],
+[<actuallyadditions:item_crystal_empowered:3>,<tconstruct:clear_stained_glass:15>,<actuallyadditions:item_crystal_empowered:3>]
+]);
+
 //End-game
 recipes.remove(<rftools:dimensional_shard>);
 
@@ -642,9 +736,9 @@ recipes.addShaped(<mysticalagriculture:infusion_crystal>,[
 
 recipes.remove(<mysticalagriculture:master_infusion_crystal>);
 recipes.addShaped(<mysticalagriculture:master_infusion_crystal>,[
-[null,<mysticalagradditions:awakened_draconium_essence>],
-[<mysticalagradditions:awakened_draconium_essence>,<mysticalagriculture:infusion_crystal>,<mysticalagradditions:awakened_draconium_essence>],
-[null,<mysticalagradditions:awakened_draconium_essence>]
+[<mysticalagriculture:crafting:5>,<mysticalagradditions:awakened_draconium_essence>,<mysticalagriculture:crafting:5>],
+[<mysticalagradditions:awakened_draconium_essence>,<rftools:infused_diamond>,<mysticalagradditions:awakened_draconium_essence>],
+[<mysticalagriculture:crafting:5>,<mysticalagradditions:awakened_draconium_essence>,<mysticalagriculture:crafting:5>]
 ]);
 
 //Mob Grinding Utils
@@ -747,17 +841,11 @@ mods.skyresources.rockgrinder.addRecipe(<harvestcraft:soggygarden>, <minecraft:l
 mods.skyresources.rockgrinder.addRecipe(<harvestcraft:tropicalgarden>, <minecraft:leaves:3>, 0.25);
 mods.skyresources.rockgrinder.addRecipe(<harvestcraft:windygarden>, <minecraft:leaves:2>, 0.25);
 
+
+mods.skyresources.rockgrinder.removeRecipe(<jaopca:item_dirtygemenderbiotite>);
+mods.skyresources.rockgrinder.addRecipe(<jaopca:item_dirtygemenderbiotite>, <minecraft:end_stone>, 0.13);
+mods.skyresources.rockgrinder.removeRecipe(<jaopca:item_dirtygemdimensionalshard>);
+mods.skyresources.rockgrinder.addRecipe(<jaopca:item_dirtygemdimensionalshard>, <minecraft:end_stone>, 0.000004);
+
 //TE Special Recipes
 mods.thermalexpansion.Crucible.addRecipe(<liquid:ender>*375, <extrautils2:enderlilly>, 30000);
-
-//Broken sttuff
-recipes.remove(<extrautils2:crafter>);
-recipes.remove(<extrautils2:analogcrafter>);
-recipes.remove(<extrautils2:quarryproxy>);
-recipes.remove(<extrautils2:quarry>);
-
-recipes.addShaped("spawn_block_mob",<spawnhere:spawn_block>*8,
-[[<ore:dirt>,<ore:dirt>,<ore:dirt>],
-[<ore:dirt>,null,<ore:dirt>],
-[<ore:dirt>,<ore:dirt>,<ore:dirt>]
-]);
