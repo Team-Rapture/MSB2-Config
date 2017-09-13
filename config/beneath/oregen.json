@@ -78,15 +78,5 @@
     "size": 24,
     "miny": 10,
     "maxy": 246
-  },
-  {
-    "ore": "techreborn:ore",
-    "oremeta": 1,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 6,
-    "size": 8,
-    "miny": 10,
-    "maxy": 246
   }
 ]

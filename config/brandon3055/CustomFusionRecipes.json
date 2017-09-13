@@ -1,0 +1,21 @@
+
+
+[
+    {
+        "mode": "ADD",
+        "result": "extendedcrafting:material",
+        "catalyst": "techreborn:ingot,1,19",
+        "energy": 12500000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:chaos_shard,1,2",
+            "draconicevolution:chaos_shard,1,2",
+            "skyresources:baseitemcomponent,1,3",
+            "skyresources:baseitemcomponent,1,3",
+            "draconicevolution:chaos_shard,1,2",
+            "draconicevolution:chaos_shard,1,2",
+            "skyresources:baseitemcomponent,1,3",
+            "skyresources:baseitemcomponent,1,3"
+        ]
+    }
+]
