@@ -26,6 +26,7 @@ recipes.remove(<harvestcraft:well>);
 recipes.remove(<extrautils2:quarryproxy>);
 recipes.remove(<extrautils2:quarry>);
 recipes.remove(<embers:breaker>);
+recipes.remove(<advgenerators:forge_output>);
 
 //Ore Dict
 <ore:ingotOsmium>.remove(<sgextraparts:ingot:10>);
@@ -331,7 +332,6 @@ recipes.remove(<extrautils2:itembuilderswand>);
 recipes.remove(<extrautils2:itemdestructionwand>);
 
 //Random
-
 recipes.remove(<forestry:bog_earth>);
 
 recipes.remove(<teslacorelib:gear_stone>);
@@ -375,7 +375,6 @@ recipes.addShapeless(<harvestcraft:freshwateritem>,[<ceramics:clay_bucket>.withT
 
 recipes.addShapeless(<harvestcraft:freshmilkitem>*4,[<ceramics:clay_bucket:1>]);
 
-recipes.remove(<techreborn:grinder>);
 
 recipes.remove(<techreborn:vacuum_freezer>);
 recipes.addShaped(<techreborn:vacuum_freezer>,[
@@ -399,7 +398,7 @@ recipes.addShapeless(<actuallyadditions:item_misc:9>*2,[<ore:cropRice>,<ore:crop
 
 //EU
 recipes.remove(<extrautils2:crafter>);
-recipes.addShapeless(<extrautils2:analogcrafter>,[<simplyconveyors:transporter_module>,<structuredcrafting:structured_crafter>,<colossalchests:chest_wall>]);
+recipes.addShapeless(<extrautils2:analogcrafter>,[<rftools:filter_module>,<structuredcrafting:structured_crafter>,<colossalchests:chest_wall>]);
 
 recipes.remove(<extrautils2:analogcrafter>);
 recipes.addShapeless(<extrautils2:crafter>,[<minecraft:chest>,<extrautils2:analogcrafter>,<extrautils2:user>]);
@@ -430,6 +429,21 @@ recipes.addShaped(<techreborn:part:2>,[
 recipes.remove(<mekanism:controlcircuit:3>);
 recipes.addShaped(<mekanism:controlcircuit:3>,[
 [<mekanism:atomicalloy>,<techreborn:part:1>,<mekanism:atomicalloy>]
+]);
+
+//Grinder
+recipes.remove(<techreborn:grinder>);
+recipes.addShaped(<techreborn:grinder>,[
+[<techreborn:part:4>,<appliedenergistics2:grindstone>,<techreborn:part:4>],
+[<minecraft:flint>,<techreborn:machine_frame>,<minecraft:flint>],
+[<ore:cobblestone>,<ore:circuitBasic>,<ore:cobblestone>]
+]);
+
+recipes.remove(<techreborn:industrial_grinder>);
+recipes.addShaped(<techreborn:industrial_grinder>,[
+[<techreborn:industrial_electrolyzer>,<ore:circuitAdvanced>,<techreborn:grinder>],
+[<techreborn:part:6>,<techreborn:part:6>,<techreborn:part:6>],
+[<ore:circuitAdvanced>,<techreborn:machine_frame:1>,<ore:circuitAdvanced>]
 ]);
 
 //TE Upgrades
@@ -847,12 +861,12 @@ mods.skyresources.rockgrinder.addRecipe(<jaopca:item_dirtygemenderbiotite>, <min
 mods.skyresources.rockgrinder.removeRecipe(<jaopca:item_dirtygemdimensionalshard>);
 mods.skyresources.rockgrinder.addRecipe(<jaopca:item_dirtygemdimensionalshard>, <minecraft:end_stone>, 0.000004);
 
+//TE Special Recipes
+mods.thermalexpansion.Crucible.addRecipe(<liquid:ender>*375, <extrautils2:enderlilly>, 30000);
+
 recipes.addShaped("spawn_block_mob",<spawnhere:spawn_block>*8,
 [[<ore:dirt>,<ore:dirt>,<ore:dirt>],
 [<ore:dirt>,null,<ore:dirt>],
 [<ore:dirt>,<ore:dirt>,<ore:dirt>]
 ]);
-
-//TE Special Recipes
-mods.thermalexpansion.Crucible.addRecipe(<liquid:ender>*375, <extrautils2:enderlilly>, 30000);
 
