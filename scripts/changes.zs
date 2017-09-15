@@ -865,8 +865,7 @@ mods.skyresources.rockgrinder.addRecipe(<jaopca:item_dirtygemdimensionalshard>, 
 mods.thermalexpansion.Crucible.addRecipe(<liquid:ender>*375, <extrautils2:enderlilly>, 30000);
 
 recipes.addShaped("spawn_block_mob",<spawnhere:spawn_block>*8,
-[[<ore:dirt>,<ore:dirt>,<ore:dirt>],
-[<ore:dirt>,null,<ore:dirt>],
-[<ore:dirt>,<ore:dirt>,<ore:dirt>]
+[[<ore:dirt>,<ore:dirt>],
+[<ore:dirt>,<ore:dirt>]
 ]);
 
