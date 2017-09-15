@@ -18,7 +18,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empow
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <silentgems:craftingmaterial:22>, <extrautils2:ingredients:14>, <tconstruct:ingots>, <astralsorcery:itemcraftingcomponent:2>, 125000, 10,[0,0,1]);
 
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <randomthings:ingredient:2>, <techreborn:lapotroncrystal>.withTag({charge: 1000000.0}), <thermalfoundation:material:136>, <integrateddynamics:crystalized_menril_chunk>, 125000, 10,[0,0.2,1]);
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <randomthings:ingredient:2>, <techreborn:lapotroncrystal>.withTag({charge: 10000000.0}), <thermalfoundation:material:136>, <integrateddynamics:crystalized_menril_chunk>, 125000, 10,[0,0.2,1]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal:3>, <forestry:bituminous_peat>, <mekanism:crystal:6>, <immersiveengineering:material:19>, <skyresources:compressedcoalblock>, 125000, 10,[0,0,0]);
 
@@ -31,7 +31,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empo
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <silentgems:craftingmaterial:22>, <extrautils2:ingredients:14>, <tconstruct:ingots>, <astralsorcery:itemcraftingcomponent:2>, 12500000, 1000,[0,0,1]);
 
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <randomthings:ingredient:2>, <techreborn:lapotroncrystal>.withTag({charge: 1000000.0}), <thermalfoundation:material:136>, <integrateddynamics:crystalized_menril_chunk>, 12500000, 1000,[0,0.2,1]);
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <randomthings:ingredient:2>, <techreborn:lapotroncrystal>.withTag({charge: 10000000.0}), <thermalfoundation:material:136>, <integrateddynamics:crystalized_menril_chunk>, 12500000, 1000,[0,0.2,1]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal:3>, <forestry:bituminous_peat>, <mekanism:crystal:6>, <immersiveengineering:material:19>, <skyresources:compressedcoalblock>, 12500000, 1000,[0,0,0]);
 
