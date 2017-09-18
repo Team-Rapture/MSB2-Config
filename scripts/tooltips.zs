@@ -1,0 +1,17 @@
+<techreborn:scrapbox>.addTooltip("Disabled");
+<extrautils2:teleporter:*>.addTooltip("Disabled");
+<randomthings:fertilizeddirt>.addTooltip("Disabled");
+<industrialforegoing:black_hole_tank>.addTooltip("Disabled");
+<xreliquary:altar>.addTooltip("Disabled");
+<harvestcraft:shippingbin>.addTooltip("Disabled");
+<harvestcraft:well>.addTooltip("Disabled");
+<extrautils2:quarryproxy>.addTooltip("Disabled");
+<extrautils2:quarry>.addTooltip("Disabled");
+<embers:breaker>.addTooltip("Disabled");
+<advgenerators:forge_output>.addTooltip("Disabled");
+<hammercore:chunk_loader>.addTooltip("Disabled");
+<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}).addTooltip("Disabled");
+<industrialforegoing:black_hole_unit>.addTooltip("Disabled");
+<industrialforegoing:black_hole_controller>.addTooltip("Disabled");
+<extrautils2:itembuilderswand>.addTooltip("Disabled");
+<extrautils2:itemdestructionwand>.addTooltip("Disabled");
