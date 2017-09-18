@@ -27,6 +27,8 @@ recipes.remove(<extrautils2:quarryproxy>);
 recipes.remove(<extrautils2:quarry>);
 recipes.remove(<embers:breaker>);
 recipes.remove(<advgenerators:forge_output>);
+recipes.remove(<hammercore:chunk_loader>);
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), true);
 
 //Ore Dict
 <ore:ingotOsmium>.remove(<sgextraparts:ingot:10>);
@@ -35,6 +37,9 @@ recipes.remove(<advgenerators:forge_output>);
 <ore:ingotManyullyn>.remove(<sgextraparts:ingot:20>);
 <ore:itemSalt>.add(<immersivetech:material>);
 <ore:dustSalt>.add(<immersivetech:material>);
+<ore:oreDraconium>.add(<draconicevolution:draconium_ore:1>);
+<ore:oreDraconium>.add(<draconicevolution:draconium_ore:2>);
+<ore:dustDark>.add(<evilcraft:dark_gem_crushed>);
 
 //Vanilla
 recipes.remove(<minecraft:piston>);
@@ -236,6 +241,8 @@ recipes.addShaped("coil",<thermalfoundation:material:513>,[
 [<minecraft:redstone>]
 ]);
 
+
+//TR
 recipes.remove(<techreborn:iron_furnace>);
 recipes.addShaped("iron_furnace",<techreborn:iron_furnace>, [
 [<techreborn:ingot:19>,<techreborn:ingot:19>,<techreborn:ingot:19>],
@@ -243,6 +250,36 @@ recipes.addShaped("iron_furnace",<techreborn:iron_furnace>, [
 [<techreborn:ingot:19>,<techreborn:ingot:19>,<techreborn:ingot:19>]
 ]);
 
+recipes.remove(<techreborn:vacuum_freezer>);
+recipes.addShaped(<techreborn:vacuum_freezer>,[
+[<ore:plateSteel>,<techreborn:extractor>,<ore:plateSteel>],
+[<ore:circuitAdvanced>,<techreborn:reinforced_glass>,<ore:circuitAdvanced>],
+[<ore:plateSteel>,<forge:bucketfilled>.withTag({FluidName: "ice", Amount: 1000}),<ore:plateSteel>]
+]);
+
+recipes.remove(<techreborn:ingot:21>*3);
+recipes.addShaped(<techreborn:ingot:21>,[
+[<ore:plateInvar>,<ore:plateInvar>,<ore:plateInvar>],
+[<ore:plateBrass>,<ore:plateBrass>,<ore:plateBrass>],
+[<ore:plateTitanium>,<ore:plateTitanium>,<ore:plateTitanium>]
+]);
+
+//Grinder
+recipes.remove(<techreborn:grinder>);
+recipes.addShaped(<techreborn:grinder>,[
+[<techreborn:part:4>,<appliedenergistics2:grindstone>,<techreborn:part:4>],
+[<minecraft:flint>,<techreborn:machine_frame>,<minecraft:flint>],
+[<ore:cobblestone>,<ore:circuitBasic>,<ore:cobblestone>]
+]);
+
+recipes.remove(<techreborn:industrial_grinder>);
+recipes.addShaped(<techreborn:industrial_grinder>,[
+[<techreborn:industrial_electrolyzer>,<ore:circuitAdvanced>,<techreborn:grinder>],
+[<techreborn:part:6>,<techreborn:part:6>,<techreborn:part:6>],
+[<ore:circuitAdvanced>,<techreborn:machine_frame:1>,<ore:circuitAdvanced>]
+]);
+
+//Ender Tank
 recipes.remove(<endertanks:ender_bucket>);
 recipes.remove(<endertanks:ender_tank>);
 recipes.addShaped("ender_bucket",<endertanks:ender_bucket>,[
@@ -375,14 +412,6 @@ recipes.addShapeless(<harvestcraft:freshwateritem>,[<ceramics:clay_bucket>.withT
 
 recipes.addShapeless(<harvestcraft:freshmilkitem>*4,[<ceramics:clay_bucket:1>]);
 
-
-recipes.remove(<techreborn:vacuum_freezer>);
-recipes.addShaped(<techreborn:vacuum_freezer>,[
-[<ore:plateSteel>,<techreborn:extractor>,<ore:plateSteel>],
-[<ore:circuitAdvanced>,<techreborn:reinforced_glass>,<ore:circuitAdvanced>],
-[<ore:plateSteel>,<forge:bucketfilled>.withTag({FluidName: "ice", Amount: 1000}),<ore:plateSteel>]
-]);
-
 recipes.remove(<silentgems:food>);
 recipes.addShaped(<silentgems:food>,[
 [null,<minecraft:baked_potato>],
@@ -416,7 +445,7 @@ recipes.remove(<techreborn:part:30>);
 recipes.addShaped(<techreborn:part:30>,[
 [<actuallyadditions:item_crystal_empowered>,<ore:dustElectrum>,<actuallyadditions:item_crystal_empowered>],
 [<actuallyadditions:item_crystal_empowered:1>,<techreborn:part:29>,<actuallyadditions:item_crystal_empowered:1>],
-[<actuallyadditions:item_crystal_empowered>,<ore:dustBrass>,<actuallyadditions:item_crystal_empowered>]
+[<actuallyadditions:item_crystal_empowered>,<ore:dustAlubrass>,<actuallyadditions:item_crystal_empowered>]
 ]);
 
 recipes.remove(<techreborn:part:2>);
@@ -429,21 +458,6 @@ recipes.addShaped(<techreborn:part:2>,[
 recipes.remove(<mekanism:controlcircuit:3>);
 recipes.addShaped(<mekanism:controlcircuit:3>,[
 [<mekanism:atomicalloy>,<techreborn:part:1>,<mekanism:atomicalloy>]
-]);
-
-//Grinder
-recipes.remove(<techreborn:grinder>);
-recipes.addShaped(<techreborn:grinder>,[
-[<techreborn:part:4>,<appliedenergistics2:grindstone>,<techreborn:part:4>],
-[<minecraft:flint>,<techreborn:machine_frame>,<minecraft:flint>],
-[<ore:cobblestone>,<ore:circuitBasic>,<ore:cobblestone>]
-]);
-
-recipes.remove(<techreborn:industrial_grinder>);
-recipes.addShaped(<techreborn:industrial_grinder>,[
-[<techreborn:industrial_electrolyzer>,<ore:circuitAdvanced>,<techreborn:grinder>],
-[<techreborn:part:6>,<techreborn:part:6>,<techreborn:part:6>],
-[<ore:circuitAdvanced>,<techreborn:machine_frame:1>,<ore:circuitAdvanced>]
 ]);
 
 //TE Upgrades
@@ -583,10 +597,17 @@ recipes.addShaped("case5",<thermalexpansion:frame:128>,[
 [<ore:plateElectrumFlux>,<tconstruct:clear_glass>,<ore:plateElectrumFlux>]
 ]);
 
+recipes.remove(<genetics:misc>);
+recipes.addShaped(<genetics:misc>,[
+[<ore:plateRefinedIron>,<ore:plateRefinedIron>,<ore:plateRefinedIron>],
+[<ore:plateInvar>,<forestry:sturdy_machine>,<ore:plateInvar>],
+[<ore:plateInvar>,<ore:plateInvar>,<ore:plateInvar>]
+]);
+
 recipes.remove(<actuallyadditions:block_misc:9>);
 recipes.addShaped("case6",<actuallyadditions:block_misc:9>,[
 [<ore:plateIron>,<actuallyadditions:item_misc:5>,<ore:plateIron>],
-[<forestry:oak_stick>,<forestry:sturdy_machine>,<forestry:oak_stick>],
+[<forestry:oak_stick>,<genetics:misc>,<forestry:oak_stick>],
 [<ore:plateIron>,<actuallyadditions:item_misc:5>,<ore:plateIron>]
 ]);
 
@@ -834,6 +855,9 @@ mods.skyresources.combustion.addRecipe(<minecraft:coal_block>, [<mekanism:basicb
 
 mods.skyresources.fusion.addRecipe(<skyresources:alchemyitemcomponent:1>, [<quark:glass_shards>*2], 0.05);
 
+mods.skyresources.fusion.removeRecipe(<skyresources:alchemyitemcomponent:4>);
+mods.skyresources.fusion.addRecipe(<skyresources:alchemyitemcomponent:4>, [<minecraft:glowstone_dust>*2,<actuallyadditions:item_crystal_empowered:1>*2,<skyresources:alchemyitemcomponent:7>], 0.40);
+
 mods.skyresources.combustion.removeRecipe(<skyresources:baseitemcomponent:3>);
 mods.skyresources.combustion.addRecipe(<skyresources:baseitemcomponent:3>, [<actuallyadditions:item_crystal_empowered:3>*3,<techreborn:ingot:17>*3,<bigreactors:ingotmetals:4>*3], 2700);
 
@@ -863,9 +887,3 @@ mods.skyresources.rockgrinder.addRecipe(<jaopca:item_dirtygemdimensionalshard>, 
 
 //TE Special Recipes
 mods.thermalexpansion.Crucible.addRecipe(<liquid:ender>*375, <extrautils2:enderlilly>, 30000);
-
-recipes.addShaped("spawn_block_mob",<spawnhere:spawn_block>*8,
-[[<ore:dirt>,<ore:dirt>],
-[<ore:dirt>,<ore:dirt>]
-]);
-
