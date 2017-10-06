@@ -1,3 +1,4 @@
+#packmode normal expert
 //remove upgrades
 recipes.remove(<ironchest:wood_iron_chest_upgrade>);
 
