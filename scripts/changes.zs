@@ -1,3 +1,4 @@
+#packmode normal expert
 //Misc Removal
 recipes.remove(<minecraft:bucket>);
 recipes.remove(<minecraft:minecart>);
@@ -15,38 +16,32 @@ recipes.remove(<minecraft:golden_carrot>);
 recipes.remove(<minecraft:golden_apple>);
 recipes.remove(<minecraft:tripwire_hook>);
 recipes.remove(<minecraft:magma_cream>);
-recipes.remove(<techreborn:scrapbox>);
-recipes.remove(<extrautils2:teleporter:*>);
+mods.jei.JEI.removeAndHide(<techreborn:scrapbox>);
+mods.jei.JEI.removeAndHide(<extrautils2:teleporter:*>);
 recipes.remove(<minecraft:sugar>);
-recipes.remove(<randomthings:fertilizeddirt>);
-recipes.remove(<industrialforegoing:black_hole_tank>);
-recipes.remove(<xreliquary:altar>);
-recipes.remove(<harvestcraft:shippingbin>);
-recipes.remove(<harvestcraft:well>);
-recipes.remove(<extrautils2:quarryproxy>);
-recipes.remove(<extrautils2:quarry>);
-recipes.remove(<embers:breaker>);
-recipes.remove(<advgenerators:forge_output>);
-recipes.remove(<hammercore:chunk_loader>);
-recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), true);
-
-//Ore Dict
-<ore:ingotOsmium>.remove(<sgextraparts:ingot:10>);
-<ore:ingotCobalt>.remove(<sgextraparts:ingot:18>);
-<ore:ingotArdite>.remove(<sgextraparts:ingot:19>);
-<ore:ingotManyullyn>.remove(<sgextraparts:ingot:20>);
-<ore:itemSalt>.add(<immersivetech:material>);
-<ore:dustSalt>.add(<immersivetech:material>);
-<ore:oreDraconium>.add(<draconicevolution:draconium_ore:1>);
-<ore:oreDraconium>.add(<draconicevolution:draconium_ore:2>);
-<ore:dustDark>.add(<evilcraft:dark_gem_crushed>);
+mods.jei.JEI.removeAndHide(<randomthings:fertilizeddirt>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:black_hole_tank>);
+mods.jei.JEI.removeAndHide(<xreliquary:altar>);
+mods.jei.JEI.removeAndHide(<harvestcraft:shippingbin>);
+mods.jei.JEI.removeAndHide(<harvestcraft:well>);
+mods.jei.JEI.removeAndHide(<extrautils2:quarryproxy>);
+mods.jei.JEI.removeAndHide(<extrautils2:quarry>);
+mods.jei.JEI.removeAndHide(<advgenerators:forge_output>);
+mods.jei.JEI.removeAndHide(<hammercore:chunk_loader>);
+mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), true);
+mods.jei.JEI.removeAndHide(<magneticraft:sluice_box>);
+mods.jei.JEI.removeAndHide(<magneticraft:stone_hammer>);
+mods.jei.JEI.removeAndHide(<calculator:atomicmultiplier>);
+mods.jei.JEI.removeAndHide(<calculator:handcrankedgenerator>);
+mods.jei.JEI.removeAndHide(<calculator:crankhandle>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:melter_idle>);
 
 //Vanilla
 recipes.remove(<minecraft:piston>);
 recipes.addShaped("piston",<minecraft:piston>, [
 [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
 [<quark:sturdy_stone>,<ore:stickIron>,<quark:sturdy_stone>],
-[<quark:sturdy_stone>,<actuallyadditions:item_crystal_empowered>,<quark:sturdy_stone>]
+[<quark:sturdy_stone>,<calculator:redstoneingot>,<quark:sturdy_stone>]
 ]);
 
 recipes.remove(<minecraft:shears>);
@@ -111,92 +106,9 @@ recipes.addShaped(<minecraft:ghast_tear>*2,[
 recipes.remove(<minecraft:gold_nugget>);
 recipes.addShapeless(<minecraft:gold_nugget>*9,[<minecraft:gold_ingot>]);
 
-
-//Beds
-recipes.remove(<minecraft:bed:*>);
-recipes.addShaped(<minecraft:bed>,[
-[<minecraft:wool>,<minecraft:wool>,<minecraft:wool>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:1>,[
-[<minecraft:wool:1>,<minecraft:wool:1>,<minecraft:wool:1>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:2>,[
-[<minecraft:wool:2>,<minecraft:wool:2>,<minecraft:wool:2>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:3>,[
-[<minecraft:wool:3>,<minecraft:wool:3>,<minecraft:wool:3>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:4>,[
-[<minecraft:wool:4>,<minecraft:wool:4>,<minecraft:wool:4>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:5>,[
-[<minecraft:wool:5>,<minecraft:wool:5>,<minecraft:wool:5>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:6>,[
-[<minecraft:wool:6>,<minecraft:wool:6>,<minecraft:wool:6>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:7>,[
-[<minecraft:wool:7>,<minecraft:wool:7>,<minecraft:wool:7>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:8>,[
-[<minecraft:wool:8>,<minecraft:wool:8>,<minecraft:wool:8>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:9>,[
-[<minecraft:wool:9>,<minecraft:wool:9>,<minecraft:wool:9>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:10>,[
-[<minecraft:wool:10>,<minecraft:wool:10>,<minecraft:wool:10>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:11>,[
-[<minecraft:wool:11>,<minecraft:wool:111>,<minecraft:wool:11>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:12>,[
-[<minecraft:wool:12>,<minecraft:wool:12>,<minecraft:wool:12>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:13>,[
-[<minecraft:wool:13>,<minecraft:wool:13>,<minecraft:wool:13>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:14>,[
-[<minecraft:wool:14>,<minecraft:wool:14>,<minecraft:wool:14>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
-recipes.addShaped(<minecraft:bed:15>,[
-[<minecraft:wool:15>,<minecraft:wool:15>,<minecraft:wool:15>],
-[<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
-]);
-
 //IF
-recipes.remove(<industrialforegoing:black_hole_unit>);
-recipes.remove(<industrialforegoing:black_hole_controller>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:black_hole_unit>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:black_hole_controller>);
 
 recipes.remove(<industrialforegoing:tree_fluid_extractor>);
 recipes.addShaped("extractor",<industrialforegoing:tree_fluid_extractor>,[
@@ -227,6 +139,14 @@ recipes.addShaped("chunk_loader",<persistentbits:chunk_loader>, [
 [<extrautils2:chunkloader>,<minecraft:enchanting_table>,<extrautils2:chunkloader>]
 ]);
 
+recipes.remove(<thermalfoundation:material:513>);
+recipes.addShaped("coil",<thermalfoundation:material:513>,[
+[null,null,<minecraft:redstone>],
+[null,<embers:ingot_dawnstone>],
+[<minecraft:redstone>]
+]);
+
+//Ceramics
 recipes.remove(<ceramics:unfired_clay>);
 recipes.addShaped("bucket",<ceramics:unfired_clay>, [
 [<minecraft:clay_ball>,null,<minecraft:clay_ball>],
@@ -234,12 +154,8 @@ recipes.addShaped("bucket",<ceramics:unfired_clay>, [
 [null,<minecraft:clay_ball>]
 ]);
 
-recipes.remove(<thermalfoundation:material:513>);
-recipes.addShaped("coil",<thermalfoundation:material:513>,[
-[null,null,<minecraft:redstone>],
-[null,<embers:ingot_dawnstone>],
-[<minecraft:redstone>]
-]);
+recipes.removeByRecipeName("uncrafting/clay_bucket");
+recipes.addShapeless(<minecraft:clay_ball>*5,[<ceramics:unfired_clay>]);
 
 
 //TR
@@ -250,15 +166,8 @@ recipes.addShaped("iron_furnace",<techreborn:iron_furnace>, [
 [<techreborn:ingot:19>,<techreborn:ingot:19>,<techreborn:ingot:19>]
 ]);
 
-recipes.remove(<techreborn:vacuum_freezer>);
-recipes.addShaped(<techreborn:vacuum_freezer>,[
-[<ore:plateSteel>,<techreborn:extractor>,<ore:plateSteel>],
-[<ore:circuitAdvanced>,<techreborn:reinforced_glass>,<ore:circuitAdvanced>],
-[<ore:plateSteel>,<forge:bucketfilled>.withTag({FluidName: "ice", Amount: 1000}),<ore:plateSteel>]
-]);
-
-recipes.remove(<techreborn:ingot:21>*3);
-recipes.addShaped(<techreborn:ingot:21>,[
+recipes.remove(<techreborn:ingot:21>);
+recipes.addShaped(<techreborn:ingot:21>*311,[
 [<ore:plateInvar>,<ore:plateInvar>,<ore:plateInvar>],
 [<ore:plateBrass>,<ore:plateBrass>,<ore:plateBrass>],
 [<ore:plateTitanium>,<ore:plateTitanium>,<ore:plateTitanium>]
@@ -320,6 +229,218 @@ recipes.addShaped(<solarfluxreborn:mirror>,[
 [null,<ore:plateSilver>]
 ]);
 
+//Gears
+recipes.remove(<ore:gearIron>);
+recipes.remove(<ore:gearCopper>);
+recipes.remove(<ore:gearTin>);
+recipes.remove(<ore:gearBronze>);
+recipes.remove(<ore:gearLead>);
+recipes.remove(<ore:gearGold>);
+recipes.remove(<ore:gearSilver>);
+recipes.remove(<ore:gearElectrum>);
+recipes.remove(<ore:gearNickel>);
+recipes.remove(<ore:gearSteel>);
+recipes.remove(<ore:gearInvar>);
+recipes.remove(<ore:gearConstantan>);
+recipes.remove(<ore:gearAluminum>);
+recipes.remove(<ore:gearIridium>);
+recipes.remove(<ore:gearMithril>);
+recipes.remove(<ore:gearLumium>);
+recipes.remove(<ore:gearSignalum>);
+recipes.remove(<ore:gearEnderium>);
+recipes.remove(<ore:gearPlatinum>);
+recipes.remove(<ore:gearElectrumFlux>);
+recipes.remove(<ore:gearCobalt>);
+recipes.remove(<ore:gearArdite>);
+recipes.remove(<ore:gearOsmium>);
+recipes.remove(<ore:gearDraconium>);
+recipes.remove(<ore:gearTungsten>);
+recipes.remove(<ore:gearUranium>);
+recipes.remove(<ore:gearYellorium>);
+recipes.remove(<ore:gearDiamond>);
+recipes.remove(<ore:gearEmerald>);
+
+recipes.addShaped(<thermalfoundation:material:256>,[
+	[null,<ore:plateCopper>],
+	[<ore:plateCopper>,<immersiveengineering:material:8>,<ore:plateCopper>],
+	[null,<ore:plateCopper>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:24>,[
+	[null,<ore:plateIron>],
+	[<ore:plateIron>,<immersiveengineering:material:8>,<ore:plateIron>],
+	[null,<ore:plateIron>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:257>,[
+	[null,<ore:plateTin>],
+	[<ore:plateTin>,<immersiveengineering:material:8>,<ore:plateTin>],
+	[null,<ore:plateTin>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:291>,[
+	[null,<ore:plateBronze>],
+	[<ore:plateBronze>,<immersiveengineering:material:8>,<ore:plateBronze>],
+	[null,<ore:plateBronze>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:259>,[
+	[null,<ore:plateLead>],
+	[<ore:plateLead>,<immersiveengineering:material:8>,<ore:plateLead>],
+	[null,<ore:plateLead>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:25>,[
+	[null,<ore:plateGold>],
+	[<ore:plateGold>,<immersiveengineering:material:8>,<ore:plateGold>],
+	[null,<ore:plateGold>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:258>,[
+	[null,<ore:plateSilver>],
+	[<ore:plateSilver>,<immersiveengineering:material:8>,<ore:plateSilver>],
+	[null,<ore:plateSilver>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:289>,[
+	[null,<ore:plateElectrum>],
+	[<ore:plateElectrum>,<immersiveengineering:material:8>,<ore:plateElectrum>],
+	[null,<ore:plateElectrum>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:260>,[
+	[null,<ore:plateAluminum>],
+	[<ore:plateAluminum>,<immersiveengineering:material:8>,<ore:plateAluminum>],
+	[null,<ore:plateAluminum>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:261>,[
+	[null,<ore:plateNickel>],
+	[<ore:plateNickel>,<immersiveengineering:material:8>,<ore:plateNickel>],
+	[null,<ore:plateNickel>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:290>,[
+	[null,<ore:plateInvar>],
+	[<ore:plateInvar>,<immersiveengineering:material:8>,<ore:plateInvar>],
+	[null,<ore:plateInvar>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:292>,[
+	[null,<ore:plateConstantan>],
+	[<ore:plateConstantan>,<immersiveengineering:material:8>,<ore:plateConstantan>],
+	[null,<ore:plateConstantan>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:264>,[
+	[null,<ore:plateMithril>],
+	[<ore:plateMithril>,<immersiveengineering:material:8>,<ore:plateMithril>],
+	[null,<ore:plateMithril>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:263>,[
+	[null,<ore:plateIridium>],
+	[<ore:plateIridium>,<immersiveengineering:material:8>,<ore:plateIridium>],
+	[null,<ore:plateIridium>]
+	]);
+
+recipes.addShaped(<jaopca:item_gearcobalt>,[
+	[null,<ore:plateCobalt>],
+	[<ore:plateCobalt>,<immersiveengineering:material:8>,<ore:plateCobalt>],
+	[null,<ore:plateCobalt>]
+	]);
+
+recipes.addShaped(<jaopca:item_gearardite>,[
+	[null,<ore:plateArdite>],
+	[<ore:plateArdite>,<immersiveengineering:material:8>,<ore:plateArdite>],
+	[null,<ore:plateArdite>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:262>,[
+	[null,<ore:platePlatinum>],
+	[<ore:platePlatinum>,<immersiveengineering:material:8>,<ore:platePlatinum>],
+	[null,<ore:platePlatinum>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:294>,[
+	[null,<ore:plateLumium>],
+	[<ore:plateLumium>,<immersiveengineering:material:8>,<ore:plateLumium>],
+	[null,<ore:plateLumium>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:293>,[
+	[null,<ore:plateSignalum>],
+	[<ore:plateSignalum>,<immersiveengineering:material:8>,<ore:plateSignalum>],
+	[null,<ore:plateSignalum>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:295>,[
+	[null,<ore:plateEnderium>],
+	[<ore:plateEnderium>,<immersiveengineering:material:8>,<ore:plateEnderium>],
+	[null,<ore:plateEnderium>]
+	]);
+
+recipes.addShaped(<teslacorelib:gear_diamond>,[
+	[null,<ore:plateDiamond>],
+	[<ore:plateDiamond>,<ore:gearIron>,<ore:plateDiamond>],
+	[null,<ore:plateDiamond>]
+	]);
+
+recipes.addShaped(<teslacorelib:gear_emerald>,[
+	[null,<ore:plateEmeral>],
+	[<ore:plateEmeral>,<ore:gearDiamond>,<ore:plateEmeral>],
+	[null,<ore:plateEmeral>]
+	]);
+
+recipes.addShaped(<thermalfoundation:material:288>,[
+	[null,<ore:plateSteel>],
+	[<ore:plateSteel>,<immersiveengineering:material:8>,<ore:plateSteel>],
+	[null,<ore:plateSteel>]
+	]);
+
+recipes.addShaped(<jaopca:item_gearosmium>,[
+	[null,<ore:plateOsmium>],
+	[<ore:plateOsmium>,<immersiveengineering:material:8>,<ore:plateOsmium>],
+	[null,<ore:plateOsmium>]
+	]);
+
+recipes.addShaped(<jaopca:item_geartungsten>,[
+	[null,<ore:plateTungsten>],
+	[<ore:plateTungsten>,<immersiveengineering:material:8>,<ore:plateTungsten>],
+	[null,<ore:plateTungsten>]
+	]);
+
+recipes.addShaped(<redstonearsenal:material:96>,[
+	[null,<ore:plateElectrumFlux>],
+	[<ore:plateElectrumFlux>,<immersiveengineering:material:8>,<ore:plateElectrumFlux>],
+	[null,<ore:plateElectrumFlux>]
+	]);
+
+recipes.addShaped(<jaopca:item_gearuranium>,[
+	[null,<ore:plateUranium>],
+	[<ore:plateUranium>,<immersiveengineering:material:8>,<ore:plateUranium>],
+	[null,<ore:plateUranium>]
+	]);
+
+recipes.addShaped(<jaopca:item_geardraconium>,[
+	[null,<ore:plateDraconium>],
+	[<ore:plateDraconium>,<immersiveengineering:material:8>,<ore:plateDraconium>],
+	[null,<ore:plateDraconium>]
+	]);
+
+recipes.addShaped(<jaopca:item_gearyellorium>,[
+	[null,<ore:plateYellorium>],
+	[<ore:plateYellorium>,<immersiveengineering:material:8>,<ore:plateYellorium>],
+	[null,<ore:plateYellorium>]
+	]);
+	
+recipes.remove(<teslacorelib:gear_stone>);
+recipes.addShaped(<teslacorelib:gear_stone>,[
+[null,<minecraft:stone:*>],
+[<minecraft:stone:*>,<ore:gearWood>,<minecraft:stone:*>],
+[null,<minecraft:stone:*>]
+]);
+
 //Botania
 recipes.remove(<botania:fertilizer>);
 recipes.addShapeless(<botania:fertilizer>,[<skyresources:baseitemcomponent:4>,<ore:dyeRed>,<ore:dyeBlue>,<ore:dyeYellow>]);
@@ -368,15 +489,50 @@ recipes.remove(<extrautils2:itembuilderswand>);
 
 recipes.remove(<extrautils2:itemdestructionwand>);
 
+//Calculator
+recipes.remove(<calculator:analysingchamber>);
+recipes.addShaped(<calculator:analysingchamber>,[
+[<calculator:material:4>,<silentgems:craftingmaterial:20>,<calculator:material:4>],
+[<silentgems:craftingmaterial:20>,<calculator:flawlessassembly>,<silentgems:craftingmaterial:20>],
+[<calculator:material:4>,<silentgems:craftingmaterial:20>,<calculator:material:4>]
+]);
+
+recipes.remove(<sonarcore:reinforcedstoneblock>);
+recipes.remove(<sonarcore:reinforceddirtblock>);
+recipes.remove(<sonarcore:reinforcedstonebrick>);
+recipes.remove(<sonarcore:reinforceddirtbrick>);
+recipes.remove(<sonarcore:stablestone_normal>*2);
+recipes.remove(<sonarcore:stableglass>*2);
+
+recipes.remove(<calculator:calculatorassembly>);
+recipes.addShaped(<calculator:calculatorassembly>,[
+[<extrautils2:decorativesolid:2>,<minecraft:stone_button>,<extrautils2:decorativesolid:2>],
+[<minecraft:stone_button>,<immersiveengineering:material:9>,<minecraft:stone_button>],
+[<extrautils2:decorativesolid:2>,<minecraft:stone_button>,<extrautils2:decorativesolid:2>]
+]);
+
+recipes.remove(<calculator:atomicbinder>);
+recipes.addShaped(<calculator:atomicbinder>*8,[
+[null,<calculator:atomicmodule>],
+[<calculator:atomicmodule>,<appliedenergistics2:material:47>,<calculator:atomicmodule>],
+[null,<calculator:atomicmodule>]
+]);
+
+recipes.remove(<calculator:calculatorscreen>);
+recipes.addShaped(<calculator:calculatorscreen>,[
+[<ore:nuggetSteel>,<ore:nuggetSteel>,<ore:nuggetSteel>],
+[<appliedenergistics2:quartz_glass>,<appliedenergistics2:quartz_glass>,<appliedenergistics2:quartz_glass>],
+[<ore:nuggetSteel>,<ore:nuggetSteel>,<ore:nuggetSteel>]
+]);
+
+mods.calculator.atomic.removeRecipe(<calculator:scientificcalculator>);
+
+mods.calculator.algorithmSeparator.removeRecipe(<calculator:redstoneingot>,<calculator:smallstone>);
+mods.calculator.scientific.removeRecipe(<calculator:redstoneingot>);
+mods.calculator.scientific.addRecipe(<calculator:reinforcedironingot>,<actuallyadditions:item_crystal_empowered>,<calculator:redstoneingot>);
+
 //Random
 recipes.remove(<forestry:bog_earth>);
-
-recipes.remove(<teslacorelib:gear_stone>);
-recipes.addShaped(<teslacorelib:gear_stone>,[
-[null,<minecraft:stone:*>],
-[<minecraft:stone:*>,<ore:gearWood>,<minecraft:stone:*>],
-[null,<minecraft:stone:*>]
-]);
 
 recipes.remove(<extrautils2:bagofholding>);
 recipes.addShaped(<extrautils2:bagofholding>,[
@@ -425,7 +581,7 @@ recipes.addShapeless(<actuallyadditions:item_misc:4>*2,[<ore:listAllgrain>,<ore:
 recipes.remove(<actuallyadditions:item_misc:9>);
 recipes.addShapeless(<actuallyadditions:item_misc:9>*2,[<ore:cropRice>,<ore:cropRice>,<ore:cropRice>,<harvestcraft:mortarandpestleitem>,<harvestcraft:mixingbowlitem>,<ore:listAllwater>]);
 
-//EU
+//ExU
 recipes.remove(<extrautils2:crafter>);
 recipes.addShapeless(<extrautils2:analogcrafter>,[<rftools:filter_module>,<structuredcrafting:structured_crafter>,<colossalchests:chest_wall>]);
 
@@ -438,8 +594,15 @@ recipes.addShapeless(<extrautils2:user>,[<minecraft:dropper>,<immersiveengineeri
 recipes.remove(<extrautils2:miner>);
 recipes.addShapeless(<extrautils2:miner>,[<minecraft:dropper>,<immersiveengineering:material:9>,<extrautils2:ingredients>,<minecraft:iron_pickaxe>]);
 
+recipes.remove(<extrautils2:pipe>);
+recipes.addShaped(<extrautils2:pipe>*5,[
+[<minecraft:stone_slab>,<minecraft:stone_slab>,<minecraft:stone_slab>],
+[<hopperducts:hopperduct>,<hopperducts:hopperduct>,<hopperducts:hopperduct>],
+[<minecraft:stone_slab>,<minecraft:stone_slab>,<minecraft:stone_slab>]
+]);
+
 //Circuits
-recipes.remove(<mekanism:controlcircuit:2>);
+mods.jei.JEI.removeAndHide(<mekanism:controlcircuit:2>);
 
 recipes.remove(<techreborn:part:30>);
 recipes.addShaped(<techreborn:part:30>,[
@@ -459,6 +622,20 @@ recipes.remove(<mekanism:controlcircuit:3>);
 recipes.addShaped(<mekanism:controlcircuit:3>,[
 [<mekanism:atomicalloy>,<techreborn:part:1>,<mekanism:atomicalloy>]
 ]);
+
+//Ore Dict Mek Exchangers
+recipes.remove(<exchangers:exadvanced>);
+recipes.addShaped(<exchangers:exadvanced>,[
+	[<ore:circuitAdvanced>,<mekanism:energytablet>,<ore:circuitAdvanced>],
+	[<exchangers:excore_t2>,<exchangers:exbasic>,<exchangers:excore_t2>],
+	[<ore:circuitAdvanced>,<mekanism:energytablet>,<ore:circuitAdvanced>]
+	]);
+recipes.remove(<exchangers:exelite>);
+recipes.addShaped(<exchangers:exelite>,[
+	[<ore:circuitElite>,<mekanism:teleportationcore>,<ore:circuitElite>],
+	[<exchangers:excore_t3>,<exchangers:exadvanced>,<exchangers:excore_t3>],
+	[<ore:circuitElite>,<mekanism:energytablet>,<ore:circuitElite>]
+	]);
 
 //TE Upgrades
 recipes.remove(<thermalexpansion:upgrade>);
@@ -564,15 +741,15 @@ recipes.addShaped(<extrautils2:compressedcobblestone:1>,[
 //Frame Tiers
 recipes.remove(<techreborn:machine_frame>);
 recipes.addShaped("case1",<techreborn:machine_frame>,[
-[<ore:ingotRefinedIron>,<ore:ingotRefinedIron>,<ore:ingotRefinedIron>],
-[<ore:ingotRefinedIron>,<actuallyadditions:block_misc:4>,<ore:ingotRefinedIron>],
-[<ore:ingotRefinedIron>,<ore:ingotRefinedIron>,<ore:ingotRefinedIron>]
+[<ore:plateRefinedIron>,<ore:plateRefinedIron>,<ore:plateRefinedIron>],
+[<ore:plateRefinedIron>,<actuallyadditions:block_misc:9>,<ore:plateRefinedIron>],
+[<ore:plateRefinedIron>,<ore:plateRefinedIron>,<ore:plateRefinedIron>]
 ]);
 
 recipes.remove(<forestry:sturdy_machine>);
 recipes.addShaped("case2",<forestry:sturdy_machine>,[
 [<ore:ingotBronze>,<ore:gearBronze>,<ore:ingotBronze>],
-[<ore:plateBronze>,<techreborn:machine_frame>,<ore:plateBronze>],
+[<ore:plateBronze>,<actuallyadditions:block_misc:4>,<ore:plateBronze>],
 [<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>]
 ]);
 
@@ -607,14 +784,14 @@ recipes.addShaped(<genetics:misc>,[
 recipes.remove(<actuallyadditions:block_misc:9>);
 recipes.addShaped("case6",<actuallyadditions:block_misc:9>,[
 [<ore:plateIron>,<actuallyadditions:item_misc:5>,<ore:plateIron>],
-[<forestry:oak_stick>,<genetics:misc>,<forestry:oak_stick>],
+[<forestry:oak_stick>,<forestry:sturdy_machine>,<forestry:oak_stick>],
 [<ore:plateIron>,<actuallyadditions:item_misc:5>,<ore:plateIron>]
 ]);
 
 recipes.remove(<teslacorelib:machine_case>);
 recipes.addShaped("case7",<teslacorelib:machine_case>,[
 [<ore:plateTungsten>,<ore:plankTreatedWood>,<ore:plateTungsten>],
-[<ore:plankTreatedWood>,<actuallyadditions:block_misc:9>,<ore:plankTreatedWood>],
+[<ore:plankTreatedWood>,<techreborn:machine_frame>,<ore:plankTreatedWood>],
 [<ore:plateTungsten>,<ore:plankTreatedWood>,<ore:plateTungsten>]
 ]);
 
@@ -640,20 +817,6 @@ recipes.addShaped("case10",<rftools:machine_frame>,[
 ]);
 
 //AA Recipes
-recipes.remove(<actuallyadditions:block_farmer>);
-recipes.addShaped("farmer",<actuallyadditions:block_farmer>,[
-[<actuallyadditions:block_crystal:5>,<redstonearsenal:tool.sickle_flux>,<actuallyadditions:block_crystal:5>],
-[<actuallyadditions:block_breaker>,<actuallyadditions:block_misc:9>,<actuallyadditions:block_placer>],
-[<actuallyadditions:block_crystal:5>,<redstonearsenal:tool.sickle_flux>,<actuallyadditions:block_crystal:5>]
-]);
-
-recipes.remove(<actuallyadditions:item_misc:8>);
-recipes.addShaped("advanced_coil",<actuallyadditions:item_misc:8>,[
-[<tconstruct:materials:15>,<tconstruct:materials:15>,<tconstruct:materials:15>],
-[<tconstruct:materials:15>,<actuallyadditions:item_misc:7>,<tconstruct:materials:15>],
-[<tconstruct:materials:15>,<tconstruct:materials:15>,<tconstruct:materials:15>]
-]);
-
 recipes.remove(<actuallyadditions:item_mining_lens>);
 recipes.addShaped(<actuallyadditions:item_mining_lens>,[
 [<extrautils2:compressedcobblestone:6>,<extrautils2:ingredients:17>,<extrautils2:compressedcobblestone:6>],
@@ -711,13 +874,7 @@ recipes.addShapeless(<astralsorcery:itemconstellationpaper>, [
 <astralsorcery:itemcraftingcomponent:4>
 ]);
 
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<astralsorcery:blockmarble>, <minecraft:stone:4>, 10000);
-
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<astralsorcery:itemcraftingcomponent>,<silentgems:gem:8>, 100);
-
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<astralsorcery:blockcollectorcrystal>.withTag({astralsorcery:{constellationName:"astralsorcery.constellation.discidia",crystalProperties:{collectiveCapability:100,size:400,purity:100},collectorType:0}}),<astralsorcery:itemrockcrystalsimple>, 100000);
-
-mods.actuallyadditions.Empowerer.addRecipe(<astralsorcery:blockcustomore>, <minecraft:stone>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_crystal:5>, 2500, 100);
+mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blockattunementaltar>, 1);
 
 //RS
 recipes.remove(<refinedstorage:quartz_enriched_iron>);
@@ -752,6 +909,13 @@ recipes.addShaped(<environmentaltech:structure_panel_clear>,[
 [<actuallyadditions:item_crystal_empowered:3>,<tconstruct:clear_stained_glass:15>,<actuallyadditions:item_crystal_empowered:3>]
 ]);
 
+recipes.remove(<environmentalmaterials:alabaster>*4);
+recipes.addShaped(<environmentalmaterials:alabaster>*8,[
+	[<ore:emcraftingAlabasterNormal>,<ore:emcraftingAlabasterNormal>,<ore:emcraftingAlabasterNormal>],
+	[<ore:emcraftingAlabasterNormal>,<ore:dyeWhite>,<ore:emcraftingAlabasterNormal>],
+	[<ore:emcraftingAlabasterNormal>,<ore:emcraftingAlabasterNormal>,<ore:emcraftingAlabasterNormal>]
+	]);
+
 //End-game
 recipes.remove(<rftools:dimensional_shard>);
 
@@ -775,6 +939,20 @@ recipes.addShaped(<mysticalagriculture:master_infusion_crystal>,[
 [<mysticalagradditions:awakened_draconium_essence>,<rftools:infused_diamond>,<mysticalagradditions:awakened_draconium_essence>],
 [<mysticalagriculture:crafting:5>,<mysticalagradditions:awakened_draconium_essence>,<mysticalagriculture:crafting:5>]
 ]);
+
+recipes.remove(<skyresources:endportalcore>);
+recipes.addShaped(<skyresources:endportalcore>,[
+	[<environmentaltech:mica>,<extendedcrafting:storage:2>,<environmentaltech:mica>],
+	[<calculator:material:8>,<skyresources:baseitemcomponent:6>,<calculator:material:8>],
+	[<skyresources:darkmatterblock>,<skyresources:darkmatterblock>,<skyresources:darkmatterblock>]
+	]);
+
+//Reactors
+furnace.remove(<bigreactors:ingotmetals:2>);
+
+recipes.remove(<bigreactors:ingotmetals:3>);
+
+mods.techreborn.fusionReactor.addRecipe(<bigreactors:ingotmetals:1>, <nuclearcraft:plutonium:13>, <bigreactors:ingotmetals:3>, 250000, 250, 250);
 
 //Mob Grinding Utils
 recipes.remove(<mob_grinding_utils:absorption_upgrade>);
@@ -843,7 +1021,7 @@ recipes.addShaped(<mob_grinding_utils:saw_upgrade:4>,[
 recipes.remove(<mob_grinding_utils:saw_upgrade:5>);
 recipes.addShaped(<mob_grinding_utils:saw_upgrade:5>,[
 [<ore:nuggetElectrumFlux>,<tconstruct:cleaver>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["manyullyn", "manyullyn", "manyullyn", "manyullyn"], Modifiers: ["beheading_cleaver"]}, Modifiers: [{identifier: "coldblooded", color: -6202120, level: 1}, {identifier: "insatiable", color: -6202120, level: 1}, {identifier: "beheading_cleaver", color: 1070923, level: 2}], Traits: ["coldblooded", "insatiable"]}),<ore:nuggetElectrumFlux>],
-[<tconstruct:cleaver>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["manyullyn", "manyullyn", "manyullyn", "manyullyn"], Modifiers: ["beheading_cleaver"]}, Modifiers: [{identifier: "coldblooded", color: -6202120, level: 1}, {identifier: "insatiable", color: -6202120, level: 1}, {identifier: "beheading_cleaver", color: 1070923, level: 2}], Traits: ["coldblooded", "insatiable"]}),<extrautils2:ingredients:9>,<tconstruct:cleaver>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["manyullyn", "manyullyn", "manyullyn", "manyullyn"], Modifiers: ["beheading_cleaver"]}, Modifiers: [{identifier: "coldblooded", color: -6202120, level: 1}, {identifier: "insatiable", color: -6202120, level: 1}, {identifier: "beheading_cleaver", color: 1070923, level: 2}], Traits: ["coldblooded", "insatiable"]})],
+[<tconstruct:cleaver>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["manyullyn", "manyullyn", "manyullyn", "manyullyn"], Modifiers: ["beheading_cleaver", "toolleveling"]}, Modifiers: [{identifier: "coldblooded", color: -6202120, level: 1}, {identifier: "insatiable", color: -6202120, level: 1}, {identifier: "beheading_cleaver", color: 1070923, level: 2}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["coldblooded", "insatiable", "toolleveling"]}),<extrautils2:ingredients:9>,<tconstruct:cleaver>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["manyullyn", "manyullyn", "manyullyn", "manyullyn"], Modifiers: ["beheading_cleaver", "toolleveling"]}, Modifiers: [{identifier: "coldblooded", color: -6202120, level: 1}, {identifier: "insatiable", color: -6202120, level: 1}, {identifier: "beheading_cleaver", color: 1070923, level: 2}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["coldblooded", "insatiable", "toolleveling"]})],
 [<ore:nuggetElectrumFlux>,<tconstruct:cleaver>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, MiningSpeed: 7.02 as float, FreeModifiers: 3, Durability: 1370, HarvestLevel: 4, Attack: 14.3359995 as float}, Special: {Categories: ["tool", "weapon"]}, TinkerData: {Materials: ["manyullyn", "manyullyn", "manyullyn", "manyullyn"], Modifiers: ["beheading_cleaver"]}, Modifiers: [{identifier: "coldblooded", color: -6202120, level: 1}, {identifier: "insatiable", color: -6202120, level: 1}, {identifier: "beheading_cleaver", color: 1070923, level: 2}], Traits: ["coldblooded", "insatiable"]}),<ore:nuggetElectrumFlux>]
 ]);
 
@@ -851,44 +1029,17 @@ recipes.addShaped(<mob_grinding_utils:saw_upgrade:5>,[
 mods.skyresources.combustion.removeRecipe(<minecraft:glowstone_dust>);
 mods.skyresources.combustion.addRecipe(<minecraft:glowstone_dust>*6, [<minecraft:blaze_powder>*3,<soulshardstow:materials:2>*3], 1700);
 
-mods.skyresources.combustion.addRecipe(<minecraft:coal_block>, [<mekanism:basicblock:3>], 1530);
-
-mods.skyresources.fusion.addRecipe(<skyresources:alchemyitemcomponent:1>, [<quark:glass_shards>*2], 0.05);
-
 mods.skyresources.fusion.removeRecipe(<skyresources:alchemyitemcomponent:4>);
-mods.skyresources.fusion.addRecipe(<skyresources:alchemyitemcomponent:4>, [<minecraft:glowstone_dust>*2,<actuallyadditions:item_crystal_empowered:1>*2,<skyresources:alchemyitemcomponent:7>], 0.40);
+mods.skyresources.fusion.addRecipe(<skyresources:alchemyitemcomponent:4>, [<minecraft:glowstone_dust>*2,<actuallyadditions:item_crystal:1>*2,<skyresources:alchemyitemcomponent:7>], 0.40);
 
 mods.skyresources.combustion.removeRecipe(<skyresources:baseitemcomponent:3>);
-mods.skyresources.combustion.addRecipe(<skyresources:baseitemcomponent:3>, [<actuallyadditions:item_crystal_empowered:3>*3,<techreborn:ingot:17>*3,<bigreactors:ingotmetals:4>*3], 2700);
-
-mods.skyresources.fusion.removeRecipe(<skyresources:orealchdust:15>);
-mods.skyresources.fusion.addRecipe(<skyresources:orealchdust:15>, [<soulshardstow:materials:1>*3,<minecraft:glowstone_dust>*2], 0.47);
-mods.skyresources.fusion.addRecipe(<skyresources:orealchdust:15>, [<techreborn:dust:55>,<minecraft:glowstone_dust>*2], 1.25);
-
-mods.skyresources.fusion.removeRecipe(<skyresources:orealchdust:12>);
-mods.skyresources.fusion.addRecipe(<skyresources:orealchdust:12>, [<actuallyadditions:item_crystal_empowered:5>*3,<minecraft:blaze_powder>*2], 0.64);
-mods.skyresources.fusion.addRecipe(<skyresources:orealchdust:12>, [<mekanism:dust:2>,<minecraft:blaze_powder>*2], 1.68);
+mods.skyresources.combustion.addRecipe(<skyresources:baseitemcomponent:3>, [<actuallyadditions:item_crystal_empowered:3>*3,<techreborn:ingot:17>*3,<bigreactors:ingotmetals:4>*3, <environmentalmaterials:alabaster:15>*3], 2700);
 
 mods.skyresources.cauldronclean.removeRecipe(<mekanism:dust:2>);
 mods.skyresources.cauldronclean.addRecipe(<mekanism:dust:2>, <skyresources:techitemcomponent>, 0.00005);
 
-mods.skyresources.rockgrinder.addRecipe(<harvestcraft:aridgarden>, <minecraft:leaves2>, 0.25);
-mods.skyresources.rockgrinder.addRecipe(<harvestcraft:frostgarden>, <minecraft:leaves:1>, 0.25);
-mods.skyresources.rockgrinder.addRecipe(<harvestcraft:shadedgarden>, <minecraft:leaves2:1>, 0.25);
-mods.skyresources.rockgrinder.addRecipe(<harvestcraft:soggygarden>, <minecraft:leaves>, 0.25);
-mods.skyresources.rockgrinder.addRecipe(<harvestcraft:tropicalgarden>, <minecraft:leaves:3>, 0.25);
-mods.skyresources.rockgrinder.addRecipe(<harvestcraft:windygarden>, <minecraft:leaves:2>, 0.25);
 
-
-mods.skyresources.rockgrinder.removeRecipe(<jaopca:item_dirtygemenderbiotite>);
-mods.skyresources.rockgrinder.addRecipe(<jaopca:item_dirtygemenderbiotite>, <minecraft:end_stone>, 0.13);
-mods.skyresources.rockgrinder.removeRecipe(<jaopca:item_dirtygemdimensionalshard>);
-mods.skyresources.rockgrinder.addRecipe(<jaopca:item_dirtygemdimensionalshard>, <minecraft:end_stone>, 0.000004);
-
-//TE Special Recipes
-mods.thermalexpansion.Crucible.addRecipe(<liquid:ender>*375, <extrautils2:enderlilly>, 30000);
-
-recipes.addShaped("spawn_block_mob",<spawnhere:spawn_block>*8,
+recipes.addShaped("spawn_block_mob",<spawnhere:spawn_block>*4,
 [[<ore:dirt>,<ore:dirt>],
 [<ore:dirt>,<ore:dirt>]
 ]);

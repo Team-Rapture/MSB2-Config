@@ -12,27 +12,27 @@
     },
     {
       "target": "white",
-      "weight": 32,
+      "weight": 33,
       "id": "OD:oreQuartz"
     },
     {
       "target": "red",
-      "weight": 32,
+      "weight": 33,
       "id": "OD:oreRedstone"
     },
     {
       "target": "blue",
-      "weight": 20,
+      "weight": 22,
       "id": "OD:oreLapis"
     },
     {
       "target": "yellow",
-      "weight": 19,
+      "weight": 20,
       "id": "OD:oreGold"
     },
     {
       "target": "cyan",
-      "weight": 13,
+      "weight": 14,
       "id": "OD:oreDiamond"
     },
     {
@@ -42,32 +42,32 @@
     },
     {
       "target": "yellow",
-      "weight": 12,
+      "weight": 14,
       "id": "OD:glowstone"
     },
     {
       "target": "orange",
-      "weight": 36,
+      "weight": 38,
       "id": "OD:oreCopper"
     },
     {
       "target": "gray",
-      "weight": 36,
+      "weight": 38,
       "id": "OD:oreTin"
     },
     {
       "target": "silver",
-      "weight": 22,
+      "weight": 24,
       "id": "OD:oreSilver"
     },
     {
       "target": "purple",
-      "weight": 30,
+      "weight": 32,
       "id": "OD:oreLead"
     },
     {
       "target": "white",
-      "weight": 26,
+      "weight": 27,
       "id": "OD:oreAluminum"
     },
     {
@@ -102,13 +102,18 @@
     },
     {
       "target": "gray",
-      "weight": 13,
+      "weight": 14,
       "id": "OD:oreNickel"
     },
     {
       "target": "light_blue",
-      "weight": 9,
+      "weight": 10,
       "id": "OD:orePlatinum"
+    },
+    {
+      "target": "light_blue",
+      "weight": 11,
+      "id": "OD:oreOsmium"
     },
     {
       "target": "black",
@@ -191,6 +196,11 @@
       "id": "OD:oreTungsten"
     },
     {
+      "target": "silver",
+      "weight": 16,
+      "id": "OD:oreOsmium"
+    },
+    {
       "target": "white",
       "weight": 7,
       "id": "OD:oreSalt"
@@ -201,13 +211,18 @@
       "id": "OD:oreInferium"
     },
     {
+      "target": "lime",
+      "weight": 14,
+      "id": "OD:oreBrainstone"
+    },
+    {
       "target": "litherite",
-      "weight": 6,
+      "weight": 12,
       "id": "environmentaltech:litherite_crystal"
     },
     {
       "target": "erodium",
-      "weight": 4,
+      "weight": 8,
       "id": "environmentaltech:erodium_crystal"
     }
   ]

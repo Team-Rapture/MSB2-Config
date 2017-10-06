@@ -10,9 +10,5 @@
   {
     "mob": "minecraft:zombie",
     "remove": "minecraft:iron_ingot"
-  },
-  {
-    "mob": "minecraft:enderman",
-    "remove": "evilcraft:ender_tear"
   }
 ]
