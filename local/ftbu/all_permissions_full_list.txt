@@ -373,6 +373,7 @@ command.psi-download-latest: CMD
 command.quarkconfig: CMD
 command.recipe: CMD
 command.reload: CMD
+command.removeTEs: CMD
 command.replaceitem: CMD
 command.rftcfg: CMD
 command.rftdb: CMD
@@ -421,6 +422,9 @@ command.tps: CMD
 command.trdev: CMD
 command.trigger: CMD
 command.undo_excavation: CMD
+command.unloadChunks: CMD
+command.unloadTickableTEs: CMD
+command.unloadWorld: CMD
 command.wandOops: CMD
 command.weather: CMD
 command.whitelist: CMD

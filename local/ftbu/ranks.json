@@ -6,7 +6,16 @@
   "ranks": {
     "player": {
       "parent": "builtin_player",
-      "permissions": [],
+      "permissions": [
+        "-command.cofh"
+      ],
+      "config": {}
+    },
+    "advplayer": {
+      "parent": "player",
+      "permissions": [
+        "+command.cofh"
+      ],
       "config": {}
     },
     "op": {
