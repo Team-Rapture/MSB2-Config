@@ -57,6 +57,7 @@ recipes.addShaped(<minecraft:hopper>,[
 	]);
 
 mods.jei.JEI.removeAndHide(<bibliocraft:framedchest:*>);
+mods.jei.JEI.removeAndHide(<rftools:storage_module_tablet>);
 
 //Annoying Stuff
 recipes.remove(<actuallyadditions:item_misc:8>);
@@ -224,6 +225,11 @@ recipes.addShaped(<minecraft:bed:15>,[
 [<minecraft:wool:15>,<minecraft:wool:15>,<minecraft:wool:15>],
 [<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>,<extrautils2:decorativesolidwood>]
 ]);
+
+//TIC
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
+mods.tconstruct.Casting.removeTableRecipe(<minecraft:bucket>);
 
 //Fusion
 mods.skyresources.fusion.removeRecipe(<skyresources:orealchdust:5>);

@@ -22,11 +22,13 @@ mods.skyresources.rockgrinder.addRecipe(<harvestcraft:windygarden>, <minecraft:l
 //Useful SR2 Stuff
 mods.skyresources.combustion.addRecipe(<minecraft:coal_block>, [<mekanism:basicblock:3>], 1530);
 mods.skyresources.fusion.addRecipe(<skyresources:alchemyitemcomponent:1>, [<quark:glass_shards>*2], 0.05);
+mods.skyresources.fusion.addRecipe(<embers:archaic_brick>, [<minecraft:netherbrick>,<embers:brick_caminite>*2], 0.41);
 
 //Tooltips
 <randomthings:blockbreaker>.addTooltip(format.yellow("Auto-outputs to inventories behind it."));
 <mysticalagriculture:crafting:5>.addTooltip(format.yellow("Can only be obtained from the ore."));
 <immersiveengineering:treated_wood>.addTooltip(format.yellow("Creosote Oil Clay Buckets can be used to craft them."));
+<extrautils2:cursedearth>.addTooltip(format.yellow("Made through a ritual which requires an Enchantment Table."));
 
 //Fix Storage Reborn recipes
 recipes.remove(<rebornstorage:storagepart:*>);
@@ -139,3 +141,12 @@ recipes.addShaped(<mysticalagriculture:cobalt_seeds>,[
 
 //TR Mg Dust to Mg Ingot
 furnace.addRecipe(<nuclearcraft:ingot:7>, <techreborn:dust:30>);
+
+//Compressed Cobble compatability
+recipes.remove(<extrautils2:compressedcobblestone:1>);
+recipes.addShaped(<extrautils2:compressedcobblestone:1>,[
+[<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>],
+[<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>],
+[<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>]
+]);
+recipes.addShapeless(<extrautils2:compressedcobblestone:1>*9,[<extrautils2:compressedcobblestone:2>]);

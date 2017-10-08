@@ -5,7 +5,7 @@
         "mode": "ADD",
         "result": "extendedcrafting:material",
         "catalyst": "techreborn:ingot,1,19",
-        "energy": 715000,
+        "energy": 100000,
         "tier": 3,
         "ingredients": [
             "skyresources:baseitemcomponent,1,3",
