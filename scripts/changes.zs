@@ -146,18 +146,6 @@ recipes.addShaped("coil",<thermalfoundation:material:513>,[
 [<minecraft:redstone>]
 ]);
 
-//Ceramics
-recipes.remove(<ceramics:unfired_clay>);
-recipes.addShaped("bucket",<ceramics:unfired_clay>, [
-[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
-[<minecraft:clay_ball>,null,<minecraft:clay_ball>],
-[null,<minecraft:clay_ball>]
-]);
-
-recipes.removeByRecipeName("uncrafting/clay_bucket");
-recipes.addShapeless(<minecraft:clay_ball>*5,[<ceramics:unfired_clay>]);
-
-
 //TR
 recipes.remove(<techreborn:iron_furnace>);
 recipes.addShaped("iron_furnace",<techreborn:iron_furnace>, [
@@ -167,7 +155,7 @@ recipes.addShaped("iron_furnace",<techreborn:iron_furnace>, [
 ]);
 
 recipes.remove(<techreborn:ingot:21>);
-recipes.addShaped(<techreborn:ingot:21>*311,[
+recipes.addShaped(<techreborn:ingot:21>*3,[
 [<ore:plateInvar>,<ore:plateInvar>,<ore:plateInvar>],
 [<ore:plateBrass>,<ore:plateBrass>,<ore:plateBrass>],
 [<ore:plateTitanium>,<ore:plateTitanium>,<ore:plateTitanium>]
@@ -721,21 +709,69 @@ recipes.addShaped("resonator",<extrautils2:resonator>,[
 [<forestry:refractory_wax>,<forestry:refractory_wax>,<forestry:refractory_wax>]
 ]);
 
+
+//The Smeltery
 recipes.remove(<tconstruct:soil>);
 recipes.addShapeless("grout",<tconstruct:soil>*2,[<minecraft:clay_ball>,<ore:gravel>,<ore:sand>,<ore:dustCoke>]);
+furnace.remove(<tconstruct:materials>);
+
+recipes.remove(<tcomplement:porcelain_tank:*>);
+recipes.addShaped(<tcomplement:porcelain_tank>,[
+	[<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>],
+	[<ceramics:unfired_clay:5>,<appliedfluidics:certus_tank>,<ceramics:unfired_clay:5>],
+	[<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>]
+	]);
+recipes.addShaped(<tcomplement:porcelain_tank:1>,[
+	[<ceramics:unfired_clay:5>,null,<ceramics:unfired_clay:5>],
+	[null,<appliedfluidics:certus_tank>],
+	[<ceramics:unfired_clay:5>,null,<ceramics:unfired_clay:5>]
+	]);
+recipes.addShaped(<tcomplement:porcelain_tank:2>,[
+	[<ceramics:unfired_clay:5>,null,<ceramics:unfired_clay:5>],
+	[<ceramics:unfired_clay:5>,<appliedfluidics:certus_tank>,<ceramics:unfired_clay:5>],
+	[<ceramics:unfired_clay:5>,null,<ceramics:unfired_clay:5>]
+	]);
+
+recipes.remove(<tcomplement:porcelain_casting:1>);
+recipes.addShaped(<tcomplement:porcelain_casting:1>,[
+	[<ceramics:unfired_clay:5>,null,<ceramics:unfired_clay:5>],
+	[<ceramics:unfired_clay:5>,<minecraft:cauldron>,<ceramics:unfired_clay:5>],
+	[<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>]
+	]);
+
+recipes.remove(<tcomplement:porcelain_melter:8>);
+recipes.addShaped(<tcomplement:porcelain_melter:8>,[
+	[null,<ceramics:unfired_clay:5>],
+	[<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>],
+	[<ceramics:unfired_clay:5>,<skyresources:heat:4>,<ceramics:unfired_clay:5>]
+	]);
+
+recipes.remove(<tconstruct:seared_tank:*>);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:seared_tank>, <tcomplement:porcelain_tank>, <liquid:stone>, 1152, true);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:seared_tank:1>, <tcomplement:porcelain_tank:1>, <liquid:stone>, 576, true);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:seared_tank:2>, <tcomplement:porcelain_tank:2>, <liquid:stone>, 864, true);
+recipes.remove(<tconstruct:casting:*>);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:casting>, <tcomplement:porcelain_casting>, <liquid:stone>, 1008, true);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:casting:1>, <tcomplement:porcelain_casting:1>, <liquid:stone>, 1008, true);
+recipes.remove(<tconstruct:faucet>);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:faucet>, <ceramics:faucet>, <liquid:stone>, 432, true);
+recipes.remove(<tcomplement:melter:8>);
+mods.tconstruct.Casting.addBasinRecipe(<tcomplement:melter:8>, <tcomplement:porcelain_melter:8>, <liquid:stone>, 864, true);
+recipes.remove(<tcomplement:melter>);
+mods.tconstruct.Casting.addBasinRecipe(<tcomplement:melter>, <tcomplement:porcelain_melter>, <liquid:stone>, 1440, true);
+
+recipes.remove(<tconstruct:smeltery_controller>);
+recipes.addShaped(<tconstruct:smeltery_controller>,[
+	[<tconstruct:materials>,<tcomplement:melter:8>,<tconstruct:materials>],
+	[<tconstruct:materials>,null,<tconstruct:materials>],
+	[<tconstruct:materials>,<tconstruct:materials>,<tconstruct:materials>]
+	]);
 
 recipes.remove(<silentgems:craftingmaterial:6>);
 recipes.addShaped(<silentgems:craftingmaterial:6>*8,[
 [<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>],
 [<ore:fuelCoke>,<silentgems:craftingmaterial>,<ore:fuelCoke>],
 [<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>]
-]);
-
-recipes.remove(<extrautils2:compressedcobblestone:1>);
-recipes.addShaped(<extrautils2:compressedcobblestone:1>,[
-[<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>],
-[<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>],
-[<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>,<ore:compressed1xCobblestone>]
 ]);
 
 //Frame Tiers
@@ -947,6 +983,13 @@ recipes.addShaped(<skyresources:endportalcore>,[
 	[<skyresources:darkmatterblock>,<skyresources:darkmatterblock>,<skyresources:darkmatterblock>]
 	]);
 
+recipes.remove(<draconicevolution:draconic_core>);
+recipes.addShaped(<draconicevolution:draconic_core>,[
+	[<draconicevolution:draconium_ingot>,<plustic:osmiridiumingot>,<draconicevolution:draconium_ingot>],
+	[<plustic:osmiridiumingot>,<calculator:enddiamond>,<plustic:osmiridiumingot>],
+	[<draconicevolution:draconium_ingot>,<plustic:osmiridiumingot>,<draconicevolution:draconium_ingot>]
+	]);
+
 //Reactors
 furnace.remove(<bigreactors:ingotmetals:2>);
 
@@ -1037,7 +1080,6 @@ mods.skyresources.combustion.addRecipe(<skyresources:baseitemcomponent:3>, [<act
 
 mods.skyresources.cauldronclean.removeRecipe(<mekanism:dust:2>);
 mods.skyresources.cauldronclean.addRecipe(<mekanism:dust:2>, <skyresources:techitemcomponent>, 0.00005);
-
 
 recipes.addShaped("spawn_block_mob",<spawnhere:spawn_block>*4,
 [[<ore:dirt>,<ore:dirt>],
