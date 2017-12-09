@@ -11,5 +11,5 @@ inscribe=
     -> ae2:material.EngProcessorPrint
 
 inscribe=
-    oredictionary:itemSilicon ae2:material.SiliconPress
+    oredictionary:ingotSilicon ae2:material.SiliconPress
     -> ae2:material.SiliconPrint

@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_furnace",
+    "registryName": "alloy_furnace_alumite",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 5950000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "plustic:alumiteingot",
+            "amount": 6
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotAluminum",
+            "amount": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotIron",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:obsidian",
+            "amount": 4
+        }
+    ]
+}

@@ -1,0 +1,2192 @@
+{
+  "groups": [
+    {
+      "name": "Basic",
+      "weight": 4,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "botania:cosmetic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11,
+              "tag": {
+                "playerHashcode:3": 31
+              }
+            },
+            {
+              "id": "botania:cosmetic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "playerHashcode:3": 31
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "extratrees:drink",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "glassware:2": 0,
+                "Fluid:10": {
+                  "FluidName:8": "binnie.beer.wheat",
+                  "Amount:3": 480
+                }
+              }
+            },
+            {
+              "id": "extratrees:drink",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "glassware:2": 11,
+                "Fluid:10": {
+                  "FluidName:8": "binnie.wine.cherry",
+                  "Amount:3": 480
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "statues:blocksheepstatuepink",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ceramics:clay_hard",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "quark:pirate_hat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:cosmetic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5,
+              "tag": {}
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "integrateddynamics:menril_torch",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "akashictome:tome",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {},
+                "akashictome:data:10": {
+                  "rftoolscontrol:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "rftoolscontrol"
+                    },
+                    "id:8": "rftoolscontrol:rftoolscontrol_manual",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "evilcraft:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "evilcraft"
+                    },
+                    "id:8": "evilcraft:origins_of_darkness",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "industrialforegoing:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "industrialforegoing"
+                    },
+                    "id:8": "industrialforegoing:book_manual",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "astralsorcery:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "astralsorcery"
+                    },
+                    "id:8": "astralsorcery:itemjournal",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "immersiveengineering:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "immersiveengineering"
+                    },
+                    "id:8": "immersiveengineering:tool",
+                    "Count:1": 1,
+                    "Damage:2": 3
+                  },
+                  "embers:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "embers"
+                    },
+                    "id:8": "embers:codex",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "rftools:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "rftools"
+                    },
+                    "id:8": "rftools:rftools_shape_manual",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "rftools1:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "rftools1"
+                    },
+                    "id:8": "rftools:rftools_manual",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "rftools2:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "rftools2"
+                    },
+                    "id:8": "rftoolsdim:rftoolsdim_manual",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "botania:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "botania"
+                    },
+                    "id:8": "botania:lexicon",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "silentgems:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "silentgems"
+                    },
+                    "id:8": "silentgems:guide_book",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "extrautils2:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "extrautils2"
+                    },
+                    "id:8": "extrautils2:book",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "actuallyadditions:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "actuallyadditions"
+                    },
+                    "id:8": "actuallyadditions:item_booklet",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "opencomputers:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "opencomputers"
+                    },
+                    "id:8": "opencomputers:tool",
+                    "Count:1": 1,
+                    "Damage:2": 4
+                  },
+                  "integrateddynamics:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "integrateddynamics"
+                    },
+                    "id:8": "integrateddynamics:on_the_dynamics_of_integration",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "hammercore:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "hammercore"
+                    },
+                    "id:8": "hammercore:manual",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "xnet:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "xnet"
+                    },
+                    "id:8": "xnet:xnet_manual",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  },
+                  "magneticraft:10": {
+                    "tag:10": {
+                      "akashictome:definedMod:8": "magneticraft"
+                    },
+                    "id:8": "magneticraft:guide_book",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "skyresources:heavyexplosivesnowball",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "randomthings:luminousblock",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "skyresources:baseitemcomponent",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "mekanism:balloon",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "evilcraft:spikey_claws",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {}
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "sgextraparts:polisher",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "statues:itemroyalnugget",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "thermalfoundation:coin",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "actuallyadditions:item_water_bowl",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {},
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Water Bucket"
+                },
+                "lastY:3": 128,
+                "lastX:3": 1025
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "actuallyadditions:item_leaf_blower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 0
+              }
+            },
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 1
+              }
+            },
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 3
+              }
+            },
+            {
+              "id": "xreliquary:mob_charm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:1": 7
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "randomthings:lapislamp",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "randomthings:quartzlamp",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "sonarcore:reinforceddirtbrick",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "statues:blockpebble",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "ichunutil:compact_porkchop",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "silentgems:food",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bibliocraft:lanterngold",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xtones:zoea",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:lantern_of_paranoia",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:fertile_potion",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "twilightforest:thorn_rose",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:waterstone1",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "tconstruct:wood_rail",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "stevescarts:modularcart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "CartVersion:1": 2,
+                "Modules:7": [
+                  37,
+                  25
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "skyresources:diamondcuttingknife",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "quark:stained_planks",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "botania:cosmetic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            },
+            {
+              "id": "botania:cosmetic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "randomthings:pitcherplant",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "randomthings:plate_bouncy",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "randomthings:runedust",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "silentgems:craftingmaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bibliocraft:bell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "extracells:walrus",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uncommon",
+      "weight": 4,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "tconstruct:slimesling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "tconstruct:slime_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "calculator:scarecrow",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:cake",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:carrotcakeitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:cheesecakeitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:cherrycheesecakeitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:chocolatesprinklecakeitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:holidaycakeitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pineappleupsidedowncakeitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pumpkincheesecakeitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:redvelvetcakeitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "actuallyadditions:block_smiley_cloud",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "extrautils2:compressedcobblestone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chiselsandbits:chiseled_iron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "side:3": 3,
+                "SGProperties:10": {},
+                "BlockEntityTag:10": {
+                  "b:3": 57,
+                  "side:1": 3,
+                  "s:3": 38,
+                  "nc:1": 0,
+                  "X:7": [
+                    120,
+                    -38,
+                    99,
+                    96,
+                    98,
+                    -80,
+                    100,
+                    104,
+                    96,
+                    -7,
+                    79,
+                    0,
+                    52,
+                    48,
+                    -32,
+                    -122,
+                    -8,
+                    101,
+                    71,
+                    -27,
+                    -121,
+                    -126,
+                    60,
+                    0,
+                    55,
+                    -66,
+                    -81,
+                    2
+                  ],
+                  "lv:3": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "randomthings:rainbowlamp",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "quark:ender_watcher",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "cookingforblockheads:cow_jar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "evilcraft:invigorating_pendant",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {},
+                "Fluid:10": {
+                  "FluidName:8": "evilcraftblood",
+                  "Amount:3": 5000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "sodiumcraft:potato_battery",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {},
+                "Energy:3": 10000
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "thermalfoundation:security",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "thermalfoundation:tool.fishing_rod_diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:futura",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "ME Controller"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "rftoolsdim:fake_water",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "twilightforest:charm_of_life_1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "actuallyadditions:item_potion_ring",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "astralsorcery:itemusabledust",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "botania:quartz",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:quartz",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "botania:quartz",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "botania:quartz",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "actuallyadditions:item_resonant_rice",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "mysticalagriculture:xp_droplet",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "darkutils:charm_gluttony",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "twilightforest:firefly",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "twilightforest:cicada",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "twilightforest:twilight_sapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "libvulpes:productfan",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "RepairCost:3": 0,
+                "display:10": {
+                  "Name:8": "Your Biggest Fan"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "enderzoo:owlegg",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "twilightforest:experiment_115",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:mercy_cross",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:salamander_eye",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "randomthings:lavawader",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "harvestcraft:beefjerkyitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "tconstruct:edible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "tconstruct:edible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "tconstruct:edible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            },
+            {
+              "id": "tconstruct:edible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "tconstruct:edible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "tconstruct:edible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "tconstruct:edible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 20
+            },
+            {
+              "id": "tconstruct:edible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 21
+            },
+            {
+              "id": "tconstruct:edible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 22
+            },
+            {
+              "id": "tconstruct:edible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chisel:energizedvoidstone",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "mekanism:glowpanel",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 10
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "storagedrawers:upgrade_storage",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "botania:brewvial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {},
+                "brewKey:8": "emptiness"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "quark:duskbound_block",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:interdiction_torch",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "forestry:thermionic_tubes",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "randomthings:beans",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "botania:cosmetic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "harvestcraft:theatreboxitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "evilcraft:blood_pearl_of_teleportation",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {},
+                "Fluid:10": {
+                  "FluidName:8": "evilcraftblood",
+                  "Amount:3": 1000
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rare",
+      "weight": 3,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "silentgems:teleporter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "silentgems:returnhomecharm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13,
+              "tag": {
+                "ChaosCharge:3": 100000
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "exchangers:exiron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:infernal_chalice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "botania:blacklotus",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "evilcraft:condensed_blood",
+              "Count": 20,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "torchmaster:mega_torch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chancecubes:chance_cube",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:jukebox",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "nuclearcraft:record_end_of_the_world",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "nuclearcraft:record_wanderer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "nuclearcraft:record_money_for_nothing",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:recordgaia2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:recordgaia1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "tinker_io:cd_lonesome_avenue",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "tconstruct:moms_spaghetti",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "evilcraft:exalted_crafter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "SGProperties:10": {},
+                "returnToInner:1": 0,
+                "NBTSimpleInventory:9": {},
+                "CraftingGridInventory:9": {}
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "extrautils2:compressedcobblestone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "botania:magnetringgreater",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "actuallyadditions:item_hairy_ball",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "botania:mushroom",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "tconstruct:moms_spaghetti",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "darkutils:trap_tile",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "darkutils:trap_tile",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "darkutils:trap_tile",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "darkutils:trap_tile",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "darkutils:trap_tile",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "darkutils:trap_tile",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "spartanshields:shield_riot_rftools",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "botania:divacharm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "mob_grinding_utils:null_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "advancedrocketry:jackhammer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chancecubes:chance_pendant_tier1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "twilightforest:block_and_chain",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Epic",
+      "weight": 2,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:infernal_chalice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:ender_staff",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "mekanism:flamethrower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "mekData:10": {
+                  "stored:10": {
+                    "amount:3": 24000,
+                    "gasName:8": "hydrogen"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:witherless_rose",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chancecubes:compact_giant_chance_cube",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "extrautils2:compressedcobblestone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "immersiveengineering:blueprint",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "blueprint:8": "specialBullet"
+              }
+            },
+            {
+              "id": "immersiveengineering:blueprint",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "blueprint:8": "electrode"
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "extrautils2:lawsword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "xreliquary:rending_gale",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "nuclearcraft:fuel_californium",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "statues:blockwastelandpigstatuet3",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "notenoughwands:acceleration_wand",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {}
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "persistentbits:chunk_loader",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chancecubes:chance_pendant_tier2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "thermalexpansion:florb",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:8": "mana"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legendary",
+      "weight": 1,
+      "rewards": [
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "draconicevolution:chaos_shard",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "quantumstorage:quantumstoragedisk",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Items:9": {},
+                "Stored:3": 0,
+                "Protocol:3": 1
+              }
+            },
+            {
+              "id": "quantumstorage:quantumstoragediskfluid",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluids:9": {},
+                "Stored:3": 0,
+                "Protocol:3": 1
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "rftoolsdim:dimlet_parcel",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "extrautils2:compressedcobblestone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "extendedcrafting:storage",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "tconstruct:materials",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "rftools:dimensional_shard",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "evilcraft:environmental_accumulation_core",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "twilightforest:cube_of_annihilation",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {}
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "techreborn:nuke",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "thermalcultivation:watering_can",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32000,
+              "tag": {
+                "Water:3": 60000,
+                "Mode:3": 4
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "chancecubes:chance_pendant_tier3",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

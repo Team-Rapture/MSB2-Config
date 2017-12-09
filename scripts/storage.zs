@@ -317,4 +317,12 @@ recipes.addShaped("qsu",<quantumstorage:quantum_storage_unit>,[
 [<ore:plateIron>,<ore:plateIron>,<ore:plateIron>]
 ]);
 
-recipes.remove(<quantumstorage:quantum_barrel>);
+recipes.remove(<quantumstorage:quantumcrafter>);
+
+recipes.addShaped(<quantumstorage:quantumcrafter>,[
+	[<extendedcrafting:singularity:1>,<minecraft:clock>,<extendedcrafting:singularity:1>],
+	[<extendedcrafting:singularity:1>,<ore:shulkerBox>,<extendedcrafting:singularity:1>],
+	[<extendedcrafting:singularity:1>,<extendedcrafting:singularity:1>,<extendedcrafting:singularity:1>]
+	]);
+
+mods.jei.JEI.removeAndHide(<quantumstorage:quantum_barrel>);

@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_furnace",
+    "registryName": "alloy_furnace_pigiron_nug",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 450000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "tconstruct:nuggets@4",
+            "amount": 9
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:nuggetIron",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:nuggetEmerald",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "evilcraftblood",
+            "amount": 11
+        }
+    ]
+}

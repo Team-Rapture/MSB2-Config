@@ -59,6 +59,10 @@ recipes.addShaped(<minecraft:hopper>,[
 mods.jei.JEI.removeAndHide(<bibliocraft:framedchest:*>);
 mods.jei.JEI.removeAndHide(<rftools:storage_module_tablet>);
 
+//Disabling Attunement
+mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blockattunementaltar>, 2);
+<astralsorcery:blockattunementaltar>.addTooltip(format.red("Disabled In Expert Mode"));
+
 //Annoying Stuff
 recipes.remove(<actuallyadditions:item_misc:8>);
 recipes.addShaped("advanced_coil",<actuallyadditions:item_misc:8>,[
@@ -89,6 +93,9 @@ recipes.addShaped(<techreborn:compressor>,[
 	[<ore:stone>,<ore:circuitBasic>,<ore:stone>],
 	[<ore:stone>,<techreborn:machine_frame>,<ore:stone>]
 	]);
+
+recipes.remove(<modularmachinery:itemmodularium>);
+mods.skyresources.combustion.addRecipe(<modularmachinery:itemmodularium>, [<draconicevolution:draconic_block>*32], 4000);
 
 recipes.remove(<actuallyadditions:block_farmer>);
 recipes.addShaped("farmer",<actuallyadditions:block_farmer>,[
@@ -253,7 +260,7 @@ mods.skyresources.fusion.addRecipe(<skyresources:orealchdust:8>, [<silentgems:cr
 mods.skyresources.fusion.addRecipe(<skyresources:orealchdust:8>, [<thermalfoundation:material:68>*4,<minecraft:blaze_powder>*3], 1.25);
 
 mods.skyresources.fusion.removeRecipe(<skyresources:orealchdust:9>);
-mods.skyresources.fusion.addRecipe(<skyresources:orealchdust:9>, [<sc:compressedclay>,<minecraft:blaze_powder>*3], 0.42);
+mods.skyresources.fusion.addRecipe(<skyresources:orealchdust:9>, [<minecraft:stained_hardened_clay:8>,<minecraft:blaze_powder>*3], 0.42);
 mods.skyresources.fusion.addRecipe(<skyresources:orealchdust:9>, [<thermalfoundation:material:67>*4,<minecraft:blaze_powder>*3], 1.26);
 
 mods.skyresources.fusion.removeRecipe(<skyresources:orealchdust:1>);

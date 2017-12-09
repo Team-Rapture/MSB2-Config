@@ -1,0 +1,36 @@
+{
+    "machine": "alloy_furnace",
+    "registryName": "alloy_furnace_osgloglas_nug",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 800000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "plustic:osgloglasnugget",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:nuggetOsmium",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:nuggetRefinedObsidian",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:nuggetRefinedGlowstone",
+            "amount": 1
+        }
+    ]
+}

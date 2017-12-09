@@ -1,4 +1,4 @@
-//packmode normal expert speedrun
+#packmode normal expert speedrun
 //Removal
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);
@@ -32,7 +32,9 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empow
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal:3>, <immersivepetroleum:material>, <mekanism:crystal:6>, <immersiveengineering:material:19>, <skyresources:compressedcoalblock>, 125000, 10,[0,0,0]);
 
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal:4>, <immersiveengineering:metal:5>, <randomthings:imbue:1>, <plustic:osgloglasingot>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "essence", Amount: 1000}}), 125000, 10,[0,1,0]);
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal:4>, <botania:manaresource:4>, <randomthings:imbue:1>, <plustic:osgloglasingot>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "essence", Amount: 1000}}), 125000, 10,[0,1,0]);
+
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal:4>, <botania:manaresource:4>, <randomthings:imbue:1>, <twilightforest:steeleaf_ingot>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "essence", Amount: 1000}}), 125000, 10,[0,1,0]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, <silentgems:craftingmaterial:6>, <silentgems:craftingmaterial:16>, <embers:adhesive>, <thermalfoundation:rockwool:15>, 125000, 10,[1,1,1]);
 
@@ -47,7 +49,9 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empo
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal:3>, <immersivepetroleum:material>, <mekanism:crystal:6>, <immersiveengineering:material:19>, <skyresources:compressedcoalblock>, 12500000, 1000,[0,0,0]);
 
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, <immersiveengineering:metal:5>, <randomthings:imbue:1>, <plustic:osgloglasingot>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "essence", Amount: 1000}}), 12500000, 1000,[0,1,0]);
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, <botania:manaresource:4>, <randomthings:imbue:1>, <plustic:osgloglasingot>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "essence", Amount: 1000}}), 12500000, 1000,[0,1,0]);
+
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, <botania:manaresource:4>, <randomthings:imbue:1>, <twilightforest:steeleaf_ingot>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "essence", Amount: 1000}}), 12500000, 1000,[0,1,0]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <silentgems:craftingmaterial:6>, <silentgems:craftingmaterial:16>, <embers:adhesive>, <thermalfoundation:rockwool:15>, 12500000, 1000,[1,1,1]);
 
@@ -62,6 +66,8 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_cry
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:3>, 50000000, 1000000, <actuallyadditions:block_crystal:3>, [<immersivepetroleum:material>, <mekanism:crystal:6>, <immersiveengineering:material:19>, <skyresources:compressedcoalblock>]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:4>, 50000000, 1000000, <actuallyadditions:block_crystal:4>, [<immersiveengineering:metal:5>, <randomthings:imbue:1>, <plustic:osgloglasingot>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "essence", Amount: 1000}})]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:4>, 50000000, 1000000, <actuallyadditions:block_crystal:4>, [<botania:manaresource:4>, <randomthings:imbue:1>, <plustic:osgloglasingot>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "essence", Amount: 1000}})]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:4>, 50000000, 1000000, <actuallyadditions:block_crystal:4>, [<botania:manaresource:4>, <randomthings:imbue:1>, <twilightforest:steeleaf_ingot>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "essence", Amount: 1000}})]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<actuallyadditions:block_crystal_empowered:5>, 50000000, 1000000, <actuallyadditions:block_crystal:5>, [<silentgems:craftingmaterial:6>, <silentgems:craftingmaterial:16>, <embers:adhesive>, <thermalfoundation:rockwool:15>]);

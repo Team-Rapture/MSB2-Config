@@ -1,0 +1,48 @@
+{
+    "machine": "alloy_furnace",
+    "registryName": "alloy_furnace_mirion_b",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 53800000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "plustic:mirionblock",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:storage@1",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:storage@0",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:storage@2",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:blockCobalt",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:blockGlass",
+            "amount": 18
+        }
+    ]
+}

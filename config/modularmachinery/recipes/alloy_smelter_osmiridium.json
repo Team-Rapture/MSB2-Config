@@ -1,0 +1,30 @@
+{
+    "machine": "alloy_furnace",
+    "registryName": "alloy_furnace_osmiridium",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 5700000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "plustic:osmiridiumingot",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotOsmium",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotIridium",
+            "amount": 1
+        }
+    ]
+}
